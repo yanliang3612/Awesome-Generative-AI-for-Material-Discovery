@@ -5,7 +5,7 @@
 
 🔥🔥🔥 **A Summary on Generative AI for Material Discovery**
 
-**[Project Page [This Page]](https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery)**  | **[💬 Slack Group (Welcome!)](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)**
+**[Project Page [This Page]](https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery)**
 
 A comprehensive survey on generative AI for material discovery. :sparkles:  
 
