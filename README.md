@@ -116,3 +116,9 @@ A comprehensive survey on generative AI for material discovery. :sparkles:
 
 
 # Awesome Datasets
+
+
+
+
+# Contact
+For any questions, feedback, or collaboration regarding the integrated repository of papers and code, feel free to contact Liang Yan at [yanliangfdu@gmail.com](yanliangfdu@gmail.com).
