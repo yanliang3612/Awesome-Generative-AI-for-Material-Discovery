@@ -17,7 +17,7 @@ A comprehensive survey on generative AI for material discovery. :sparkles:
   - [Large Language Models](#large-language-models)
   - [Diffusion Models](#diffusion-models)
   - [VAE Models](#vae-models)
-  - [Represenation \& Pretraining](#represenation--pretraining)
+  - [Representation \& Pretraining](#representation--pretraining)
   - [Multi-Modal Training \& Learning](#multi-modal-training--learning)
 - [Awesome Datasets](#awesome-datasets)
 - [Contact](#contact)
@@ -68,6 +68,8 @@ A comprehensive survey on generative AI for material discovery. :sparkles:
 | ![Star](https://img.shields.io/github/stars/facebookresearch/flowmm.svg?style=social&label=Star) <br> [**FlowMM: Generating Materials with Riemannian Flow Matching**](https://arxiv.org/abs/2406.04713)                                                                                                                             | ICML 2024          | 2024.07.07 | [GitHub](https://github.com/facebookresearch/flowmm) |    -     |
 | ![Star](https://img.shields.io/github/stars/EmperorJia/EquiCSP.svg?style=social&label=Star) <br> [**Equivariant Diffusion for Crystal Structure Prediction**](https://dl.acm.org/doi/10.5555/3692070.3693274)                                                                                                                        | ICML 2024     | 2024.07.21 |   [GitHub](https://github.com/EmperorJia/EquiCSP)    |    -     |
 | [**GenMS: Generative Hierarchical Materials Search**](https://arxiv.org/abs/2409.06762) <br>                                                                                                                                                                                                                                                                                |                   NeurIPS 2024                    | 2024.09.10 |                                  -                                  | [Demo](https://generative-materials.github.io/genms/)  |
+| [**Discovery of 2D Materials via Symmetry-Constrained Diffusion Model**](https://doi.org/10.1021/acs.jpcc.4c08681)                                                                                                                                                                                |                   J. Phys. Chem. C 2025                    | 2024.12.24 |                                  -                                  | -  |
+| [**Generative Design of Crystal Structures by Point Cloud Representations and Diffusion Model**](https://doi.org/10.1016/j.isci.2024.111659)                                                                                                                                                                                |                   iScience 2025                    | 2025.01.17 |                                  -                                  | -  |
 
 
 
@@ -78,15 +80,16 @@ A comprehensive survey on generative AI for material discovery. :sparkles:
 |-|-|-|-|-|
 | ![Star](https://img.shields.io/github/stars/txie-93/cdvae.svg?style=social&label=Star) <br> [**Crystal Diffusion Variational Autoencoder for Periodic Material Generation**](https://arxiv.org/abs/2110.06197)                                                                                                                            |            ICLR 2022             | 2021.10.21 | [GitHub](https://github.com/txie-93/cdvae) |  -   |
 | ![Star](https://img.shields.io/github/stars/ixsluo/cond-cdvae.svg?style=social&label=Star) <br> [**Deep learning generative model for crystal structure prediction**](https://www.nature.com/articles/s41524-024-01443-y)                                                                                                                        | NPJ computational materials 2024 | 2024.08.10  | [GitHub](https://github.com/ixsluo/cond-cdvae) |  -   |
+| ![Star](https://img.shields.io/github/stars/MaterSim/LEGO-xtal.svg?style=social&label=Star) <br> [**AI-assisted rapid crystal structure generation towards a target local environment**](https://doi.org/10.1038/s41524-025-01931-9) | NPJ computational materials 2026 | 2025.01.03 | [GitHub](https://github.com/MaterSim/LEGO-xtal) | [Demo](http://lego-crystal.onrender.com) |
 
 
 
 
 
-## Represenation & Pretraining 
+## Representation & Pretraining 
 
 | |Title|Venue|Date|Code|Demo|
-|-|-|-|-|-|
+|-|-|-|-|-|-|
 | ![Star](https://img.shields.io/github/stars/YKQ98/Matformer.svg?style=social&label=Star) <br> [**Periodic Graph Transformers for Crystal Material Property Prediction**](https://arxiv.org/abs/2209.11807)                                                                                                                      |           NeurIPS 2022           | 2022.09.23 |                                                [GitHub](https://github.com/YKQ98/Matformer)                                                |  -   |
 | [**Resolving the data ambiguity for periodic crystals**](https://openreview.net/forum?id=4wrB7Mo9_OQ)                                                                                                                                                                                                        |           NeurIPS 2022           | 2022.11.28 |                                                                     -                                                                      |  -   |
 | [**Capturing long-range interaction with reciprocal space neural network**](https://arxiv.org/abs/2211.16684)                                                                                                                                                                                                                                      |            Arxiv 2022            | 2022.11.30 |                                                                     -                                                                      |  -   |
