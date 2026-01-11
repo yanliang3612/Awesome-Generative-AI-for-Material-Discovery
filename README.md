@@ -33,19 +33,12 @@ A comprehensive survey on generative AI for material discovery. :sparkles:
 |-|-|-|-|-|
 |[**ChatGPT in the Material Design: Selected Case Studies to Assess the Potential of ChatGPT**](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01702) <br>| Journal of Chemical Information and Modeling 2024|2024.01.18|-|-|
 |![Star](https://img.shields.io/github/stars/lantunes/CrystaLLM.svg?style=social&label=Star)<br>[**Crystal structure generation with autoregressive large language modeling**](https://www.nature.com/articles/s41467-024-54639-7)<br>|Nature Communications 2024|2023.07.10|[Github](https://github.com/lantunes/CrystaLLM)|-|
-
 |![Star](https://img.shields.io/github/stars/facebookresearch/crystal-text-llm.svg?style=social&label=Star)<br>[**Fine-Tuned Language Models Generate Stable Inorganic Materials as Text**](https://arxiv.org/abs/2402.04379)<br>|ICLR 2024|2024.02.06|[Github](https://github.com/facebookresearch/crystal-text-llm)|-|
-
 | ![Star](https://img.shields.io/github/stars/harrylaucngd/prompt-eng-master.svg?style=social&label=Star) <br> [**Integrating Chemistry Knowledge in Large Language Models via Prompt Engineering**](https://arxiv.org/abs/2404.14467)<br>|Arxiv 2024|2024.05.22|[Github](https://github.com/harrylaucngd/prompt-eng-master)|-|
-
 |![Star](https://img.shields.io/github/stars/Fung-Lab/LLMatDesign.svg?style=social&label=Star)<br>[**LLMatDesign: Autonomous Materials Discovery with Large Language Models**](https://arxiv.org/abs/2406.13163)<br>|Arxiv 2024|2024.06.19|[Github](https://github.com/Fung-Lab/LLMatDesign)|-|
-
 | ![Star](https://img.shields.io/github/stars/xiaohang007/SLICES.svg?style=social&label=Star) <br> [**MatterGPT: A Generative Transformer for Multi-Property Inverse Design of Solid-State Materials**](https://arxiv.org/abs/2408.07608) <br>                                                                                                                                |                    Arxiv 2024                     | 2024.08.14 | [Github](https://github.com/xiaohang007/SLICES/tree/main/MatterGPT) |                           -                            |
-
 | [**GenMS: Generative Hierarchical Materials Search**](https://arxiv.org/abs/2409.06762) <br>                                                                                                                                                                                                                                                                                |                   NeurIPS 2024                    | 2024.09.10 |                                  -                                  | [Demo](https://generative-materials.github.io/genms/)  |
-
 | ![Star](https://img.shields.io/github/stars/facebookresearch/flowmm.svg?style=social&label=Star) <br> [**FlowLLM: Flow Matching for Material Generation with Large Language Models as Base Distributions**](https://arxiv.org/abs/2410.23405) <br>                                                                                                                          |                   NeurIPS 2024                    | 2024.10.30 |        [Github](https://github.com/facebookresearch/flowmm)         |                           -                            |
-
 | ![Star](https://img.shields.io/github/stars/divelab/AIRS.svg?style=social&label=Star) <br> [**Invariant Tokenization for Language Model Enabled Crystal Materials Generation**](https://arxiv.org/abs/2503.00152) <br>                                                                                                                                                                                                                         |                   NeurIPS 2024                    | 2025.02.28 |        [Github](https://github.com/divelab/AIRS)         |                           -                            |
 
 
