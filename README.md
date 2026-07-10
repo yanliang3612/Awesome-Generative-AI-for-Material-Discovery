@@ -4,6 +4,9 @@
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
+  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">
+    <img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog">
+  </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
   </a>
