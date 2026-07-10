@@ -20,6 +20,8 @@
 <p align="center">
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
   |
+  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">Zhihu Blog</a>
+  |
   <a href="#community">Community</a>
   |
   <a href="#awesome-algorithms">Algorithms</a>
@@ -65,6 +67,10 @@ This repository tracks recent progress in generative AI for materials, including
 **Legend:** In `Awesome Algorithms`, `Code` links to implementations or official repositories and `Demo` links to project pages, web apps, or documentation. Resource sections use type-specific columns for companion material, data, evaluation suites, and software.
 
 ## Community
+
+### Zhihu Blog
+
+For Chinese-language project introductions and updates, visit our [Zhihu Blog](https://zhuanlan.zhihu.com/p/2058955167744136801).
 
 ### Join the MatDiscoverAI Slack
 
