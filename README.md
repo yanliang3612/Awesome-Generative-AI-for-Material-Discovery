@@ -47,6 +47,9 @@ Last updated: 2026-07-10
   - [Representation & Pretraining](#representation--pretraining)
   - [Multi-Modal Training & Learning](#multi-modal-training--learning)
 - [Awesome Datasets, Benchmarks & Toolkits](#awesome-datasets-benchmarks--toolkits)
+  - [Datasets](#datasets)
+  - [Benchmarks](#benchmarks)
+  - [Toolkits](#toolkits)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -225,7 +228,6 @@ This repository tracks recent progress in generative AI for materials, including
 | ![Star](https://img.shields.io/github/stars/divelab/AIRS.svg?style=social&label=Star)<br>[**Complete and Efficient Graph Transformers for Crystal Material Property Prediction**](https://arxiv.org/abs/2403.11857) | ICLR 2024 | 2024.03.18 | [GitHub](https://github.com/divelab/AIRS) | - |
 | [**A Diffusion-Based Pre-training Framework for Crystal Property Prediction**](https://ojs.aaai.org/index.php/AAAI/article/view/28748) | AAAI 2024 | 2024.03.24 | - | - |
 | ![Star](https://img.shields.io/github/stars/microsoft/mattersim.svg?style=social&label=Star)<br>[**MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures**](https://arxiv.org/abs/2405.04967) | arXiv 2024 | 2024.05.08 | [GitHub](https://github.com/microsoft/mattersim) | [Docs](https://microsoft.github.io/mattersim/) |
-| ![Star](https://img.shields.io/github/stars/materialsvirtuallab/matgl.svg?style=social&label=Star)<br>[**Materials Graph Library**](https://github.com/materialsvirtuallab/matgl) | Project 2026 | 2026.05.05 | [GitHub](https://github.com/materialsvirtuallab/matgl) | [Docs](https://matgl.ai) |
 | [**MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interaction Potentials**](https://arxiv.org/abs/2603.02002) | arXiv 2026 | 2026.03.02 | - | - |
 | [**DPA4: Pushing the Accuracy-Cost Frontier of Interatomic Potentials with EMFA SO(2) Convolution**](https://arxiv.org/abs/2606.02419) | arXiv 2026 | 2026.06.01 | - | - |
 | [**CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models**](https://arxiv.org/abs/2605.08960) | arXiv 2026 | 2026.05.09 | - | - |
@@ -253,45 +255,35 @@ This repository tracks recent progress in generative AI for materials, including
 
 ## Awesome Datasets, Benchmarks & Toolkits
 
-| Name | Type | Year | Code / Resource | Notes |
+This section is reserved for reusable resources: downloadable datasets, standardized evaluation suites, and general-purpose software. Implementations centered on a single generative model are listed only in the method categories above.
+
+### Datasets
+
+| Name | Data type | Data | Paper / Project | Notes |
 | - | - | - | - | - |
-| [**MatterGen**](https://github.com/microsoft/mattergen) | Generative model | 2025 | [GitHub](https://github.com/microsoft/mattergen) | Inorganic material generation from Microsoft Research. |
-| [**ADiT**](https://github.com/facebookresearch/all-atom-diffusion-transformer) | Generative model | 2025 | [GitHub](https://github.com/facebookresearch/all-atom-diffusion-transformer) | Unified all-atom diffusion transformer for molecules and materials. |
-| [**CrystalDiT**](https://github.com/hanyi2021/CrystalDiT) | Generative model | 2025 | [GitHub](https://github.com/hanyi2021/CrystalDiT) | Simple diffusion transformer for crystal generation. |
-| [**Crystalite**](https://github.com/joshrosie/crystalite) | Generative model | 2026 | [GitHub](https://github.com/joshrosie/crystalite) | Lightweight diffusion transformer for crystalline materials. |
-| [**FlowMM**](https://github.com/facebookresearch/flowmm) | Generative model | 2024 | [GitHub](https://github.com/facebookresearch/flowmm) | Riemannian flow matching for materials. |
-| [**Crystal-text-LLM**](https://github.com/facebookresearch/crystal-text-llm) | Language model | 2024 | [GitHub](https://github.com/facebookresearch/crystal-text-llm) | CIF/text-based stable inorganic material generation. |
-| [**MatterGPT**](https://github.com/xiaohang007/SLICES/tree/main/MatterGPT) | Language model | 2024 | [GitHub](https://github.com/xiaohang007/SLICES/tree/main/MatterGPT) | SLICES-based transformer for multi-property inverse design. |
-| [**MOFFUSION**](https://github.com/parkjunkil/MOFFUSION) | MOF generator | 2025 | [GitHub](https://github.com/parkjunkil/MOFFUSION) | Multi-modal MOF generation with 3D conditioning. |
-| [**AtomMOF**](https://github.com/nayoung10/AtomMOF) | MOF generator | 2026 | [GitHub](https://github.com/nayoung10/AtomMOF) | All-atom flow matching for MOF-adsorbate structure prediction. |
-| [**MatterSim**](https://github.com/microsoft/mattersim) | Atomistic foundation model | 2024 | [GitHub](https://github.com/microsoft/mattersim) | General atomistic model across elements, temperatures, and pressures. |
-| [**MatGL**](https://github.com/materialsvirtuallab/matgl) | Materials graph library | 2026 | [GitHub](https://github.com/materialsvirtuallab/matgl) | Graph deep learning library with pretrained materials models. |
-| [**Open Materials 2024 (OMat24)**](https://arxiv.org/abs/2410.12771) | Dataset & pretrained models | 2024 | [Fairchem](https://github.com/facebookresearch/fairchem) | Large-scale inorganic materials dataset and pretrained models. |
-| [**Matbench Discovery**](https://matbench-discovery.materialsproject.org/) | Benchmark | 2023 | [GitHub](https://github.com/janosh/matbench-discovery) | Stability prediction benchmark and leaderboard. |
-| [**LeMat-GenBench**](https://github.com/LeMaterial/lemat-genbench) | Generative benchmark | 2025 | [GitHub](https://github.com/LeMaterial/lemat-genbench) | [Leaderboard](https://huggingface.co/spaces/LeMaterial/LeMat-GenBench) for unified crystal-generator evaluation. |
-| [**CrystalGym**](https://github.com/chandar-lab/crystal-gym) | RL benchmark | 2025 | [GitHub](https://github.com/chandar-lab/crystal-gym) | Reinforcement-learning environments for materials discovery. |
-| [**MatMMExtract / MatSciFig / MaterialScope**](https://arxiv.org/abs/2606.29667) | Multimodal dataset | 2026 | - | Pipeline and datasets for figure-level materials vision-language learning. |
-| [**Multicrossmodal Autonomous Materials Science Agent**](https://github.com/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent) | Agent framework | 2025 | [GitHub](https://github.com/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent) | Multi-agent integration of materials images, videos, tables, and literature. |
-| [**OMatG**](https://github.com/FERMat-ML/OMatG) | Generative model | 2025 | [GitHub](https://github.com/FERMat-ML/OMatG) | Stochastic-interpolant crystal generation with inference-time RL extensions. |
-| [**CrystalFlow**](https://github.com/ixsluo/CrystalFlow) | Generative model | 2025 | [GitHub](https://github.com/ixsluo/CrystalFlow) | Conditional flow matching for crystalline materials. |
-| [**CrysBFN**](https://github.com/wu-han-lin/CrysBFN) | Bayesian flow model | 2025 | [GitHub](https://github.com/wu-han-lin/CrysBFN) | Periodic Bayesian flow for efficient material generation. |
-| [**SymmBFN**](https://github.com/aimat-lab/symmbfn) | Bayesian flow model | 2026 | [GitHub](https://github.com/aimat-lab/symmbfn) | Symmetry-aware and property-conditioned crystal generation. |
-| [**WyFormer**](https://github.com/SymmetryAdvantage/WyckoffTransformer) | Autoregressive model | 2025 | [GitHub](https://github.com/SymmetryAdvantage/WyckoffTransformer) | Fast space-group-conditioned generation from Wyckoff representations. |
-| [**SGEquiDiff**](https://github.com/rees-c/sgequidiff) | Diffusion model | 2025 | [GitHub](https://github.com/rees-c/sgequidiff) | Space-group-equivariant crystal diffusion. |
-| [**CrysLLMGen**](https://github.com/kdmsit/crysllmgen) | Hybrid generative model | 2025 | [GitHub](https://github.com/kdmsit/crysllmgen) | LLM composition generation followed by diffusion refinement. |
-| [**Chemeleon**](https://github.com/hspark1212/chemeleon) | Diffusion model | 2025 | [GitHub](https://github.com/hspark1212/chemeleon) | Text-guided crystal generation and chemical-space exploration. |
-| [**Chemeleon2**](https://github.com/hspark1212/chemeleon2) | RL-guided generator | 2026 | [GitHub](https://github.com/hspark1212/chemeleon2) | Reinforcement learning for diverse and novel crystal generation. |
-| [**OXtal**](https://github.com/OXtal/OXtal) | Organic crystal generator | 2026 | [GitHub](https://github.com/OXtal/OXtal) | All-atom diffusion for molecular crystal structure prediction. |
-| [**Clari**](https://github.com/aspuru-guzik-group/clari) | Organic crystal generator | 2026 | [GitHub](https://github.com/aspuru-guzik-group/clari) | Unit-cell flow matching for fast organic CSP. |
-| [**PLaID++**](https://github.com/andaero/PLaID) | Language model | 2026 | [GitHub](https://github.com/andaero/PLaID) | Preference-aligned, symmetry-informed inorganic material generation. |
-| [**CatFlow**](https://github.com/minkyu1022/CatFlow) | Catalyst generator | 2026 | [GitHub](https://github.com/minkyu1022/CatFlow) | Flow matching for slab-adsorbate co-generation. |
-| [**MOFFlow-2**](https://github.com/nayoung10/MOFFlow-2) | MOF generator | 2025 | [GitHub](https://github.com/nayoung10/MOFFlow-2) | Torsion-aware flow matching with flexible building blocks. |
-| [**MOF-BFN**](https://github.com/jiaor17/MOF-BFN) | MOF generator | 2025 | [GitHub](https://github.com/jiaor17/MOF-BFN) | Bayesian flow network for MOF structure prediction. |
-| [**Matra-Genoa**](https://github.com/ppdebreuck/matra-genoa) | Autoregressive model & dataset | 2026 | [GitHub](https://github.com/ppdebreuck/matra-genoa) | Wyckoff-based generation with the MatraGenoa3M dataset. |
-| [**Compositional Crystal Generation**](https://github.com/liun-online/Compositional_Crystal_Generation) | VQ-VAE generator | 2026 | [GitHub](https://github.com/liun-online/Compositional_Crystal_Generation) | Concept-based controllable crystal generation. |
-| [**Crys-JEPA**](https://github.com/liun-online/Crys_JEPA) | Screening & refinement | 2026 | [GitHub](https://github.com/liun-online/Crys_JEPA) | Energy-aware embedding screening and generative refinement. |
-| [**PhononBench**](https://github.com/xqh19970407/PhononBench) | Generative benchmark | 2025 | [GitHub](https://github.com/xqh19970407/PhononBench) | Dynamical-stability evaluation for generated crystals. |
-| [**AtomBench**](https://github.com/atomgptlab/atombench) | Generative benchmark | 2025 | [GitHub](https://github.com/atomgptlab/atombench) | GPT, diffusion, and flow benchmarks for atomic structure generation. |
+| [**Open Materials 2024 (OMat24)**](https://arxiv.org/abs/2410.12771) | Inorganic structures with DFT energies and forces | [Hugging Face](https://huggingface.co/datasets/fairchem/OMAT24) | [Paper](https://arxiv.org/abs/2410.12771) · [FAIR-Chem](https://github.com/facebookresearch/fairchem) | More than 100 million structures for training atomistic foundation models. |
+| [**MatraGenoa3M**](https://doi.org/10.6084/m9.figshare.28271294.v1) | Generated inorganic crystal structures | [Figshare](https://doi.org/10.6084/m9.figshare.28271294.v1) | [Paper](https://www.nature.com/articles/s41524-025-01940-8) · [Project](https://github.com/ppdebreuck/matra-genoa) | Three million generated, unrelaxed crystal structures from Matra-Genoa. |
+| [**MatSciFig**](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | Panel-level materials image-text pairs | [Hugging Face](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | [Paper](https://arxiv.org/abs/2606.29667) | 391,606 annotated panels extracted from 180,571 scientific figures. |
+| [**MaterialScope**](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | Compound-figure detection annotations | [Hugging Face](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | [Paper](https://arxiv.org/abs/2606.29667) | 2,811 manually annotated materials-science figures with 12,906 bounding boxes. |
+
+### Benchmarks
+
+| Name | Evaluation target | Resources | Paper | Notes |
+| - | - | - | - | - |
+| [**Matbench Discovery**](https://matbench-discovery.materialsproject.org/) | Crystal-stability discovery | [GitHub](https://github.com/janosh/matbench-discovery) · [Leaderboard](https://matbench-discovery.materialsproject.org/) | [Paper](https://arxiv.org/abs/2308.14920) | Reproducible evaluation of models that rank candidate crystals by predicted stability. |
+| [**MGB**](https://openreview.net/forum?id=K15Dqxm0ge) | Material generation across crystals, MOFs, and OOD tasks | Not publicly linked | [Paper](https://openreview.net/forum?id=K15Dqxm0ge) | Standardized multi-task protocol; the paper states that code and model weights are being organized for release. |
+| [**LeMat-GenBench**](https://github.com/LeMaterial/lemat-genbench) | Inorganic crystal generation | [GitHub](https://github.com/LeMaterial/lemat-genbench) · [Leaderboard](https://huggingface.co/spaces/LeMaterial/LeMat-GenBench) | [Paper](https://arxiv.org/abs/2512.04562) | Open evaluation suite covering validity, stability, novelty, diversity, and efficiency. |
+| [**CrystalGym**](https://github.com/chandar-lab/crystal-gym) | Reinforcement learning for materials discovery | [GitHub](https://github.com/chandar-lab/crystal-gym) | [Paper](https://openreview.net/forum?id=RykFbDm5SU) | Reusable RL environments and evaluation tasks for crystal discovery. |
+| [**PhononBench**](https://github.com/xqh19970407/PhononBench) | Dynamical stability of generated crystals | [GitHub](https://github.com/xqh19970407/PhononBench) · [Dataset](https://zenodo.org/records/18185662) · [API](http://phononbench.cn) | [Paper](https://arxiv.org/abs/2512.21227) | Phonon-labeled generated structures with an open high-throughput evaluation workflow. |
+| [**AtomBench**](https://github.com/atomgptlab/atombench) | Crystal-structure reconstruction | [GitHub](https://github.com/atomgptlab/atombench) · [Docs](https://atomgptlab.github.io/atombench/) | [Paper](https://arxiv.org/abs/2510.16165) | Installable cross-model benchmarking package with reproducible analysis pipelines. |
+
+### Toolkits
+
+| Name | Scope | Resources | Paper | Notes |
+| - | - | - | - | - |
+| [**MatGL**](https://github.com/materialyzeai/matgl) | Materials graph deep learning | [GitHub](https://github.com/materialyzeai/matgl) · [Docs](https://matgl.ai/) | [Paper](https://www.nature.com/articles/s41524-025-01742-y) | Extensible library with multiple architectures, pretrained potentials, and simulation interfaces. |
+| [**MatMMExtract**](https://github.com/CMEG-IITR/matmmextract) | Multimodal dataset construction | [GitHub](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | [Paper](https://arxiv.org/abs/2606.29667) | Pipeline for decomposing compound materials figures and creating grounded panel annotations. |
+| [**PhononScore**](http://phononbench.cn/phononscore/) | Dynamical-stability scoring | [Online evaluator](http://phononbench.cn/phononscore/) | [Paper](https://arxiv.org/abs/2607.08518) | Phonon-aware scoring function for generated crystals. |
 
 ## Citation
 
