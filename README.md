@@ -13,9 +13,19 @@
   <img src="assets/generative-ai-materials-logo.png" alt="Generative AI for Material Discovery logo" width="260">
 </p>
 
-🔥🔥🔥 **A curated list of papers, projects, datasets, and benchmarks on generative AI for material discovery.**
+<p align="center">
+  <strong>A curated collection of papers, projects, datasets, and benchmarks on generative AI for material discovery.</strong>
+</p>
 
-**[Project Page [This Page]](https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery)**
+<p align="center">
+  <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
+  |
+  <a href="#awesome-papers">Papers</a>
+  |
+  <a href="#awesome-datasets-benchmarks--toolkits">Datasets & Toolkits</a>
+  |
+  <a href="#citation">Citation</a>
+</p>
 
 Last updated: 2026-07-10
 
@@ -23,6 +33,7 @@ Last updated: 2026-07-10
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Awesome Papers](#awesome-papers)
   - [Surveys & Benchmarks](#surveys--benchmarks)
   - [Large Language Models](#large-language-models)
@@ -35,13 +46,20 @@ Last updated: 2026-07-10
   - [Representation & Pretraining](#representation--pretraining)
   - [Multi-Modal Training & Learning](#multi-modal-training--learning)
 - [Awesome Datasets, Benchmarks & Toolkits](#awesome-datasets-benchmarks--toolkits)
+- [Citation](#citation)
 - [Contact](#contact)
 
 ---
 
-# Awesome Papers
+## Overview
 
-## Surveys & Benchmarks
+This repository tracks recent progress in generative AI for materials, including language-model-based crystal generation, diffusion and flow-matching models, VAE-style generators, multimodal materials learning, agentic discovery workflows, foundation models, and evaluation resources.
+
+**Legend:** `Code` links to implementations or official repositories when available; `Demo` links to project pages, leaderboards, web apps, or documentation.
+
+## Awesome Papers
+
+### Surveys & Benchmarks
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -51,7 +69,7 @@ Last updated: 2026-07-10
 | [**LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models**](https://arxiv.org/abs/2512.04562) | arXiv 2025 | 2025.12.04 | - | - |
 | [**Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models**](https://arxiv.org/abs/2607.07647) | arXiv 2026 | 2026.07.08 | - | - |
 
-## Large Language Models
+### Large Language Models
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -67,7 +85,7 @@ Last updated: 2026-07-10
 | [**A generative material transformer using Wyckoff representation**](https://arxiv.org/abs/2501.16051) | arXiv 2025 | 2025.01.27 | - | - |
 | [**CrystalICL: Enabling In-Context Learning for Crystal Generation**](https://arxiv.org/abs/2508.20143) | arXiv 2025 | 2025.08.27 | - | - |
 
-## Agentic Materials Discovery
+### Agentic Materials Discovery
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -77,7 +95,7 @@ Last updated: 2026-07-10
 | [**"DIVE" into Hydrogen Storage Materials Discovery with AI Agents**](https://arxiv.org/abs/2508.13251) | arXiv 2025 | 2025.08.18 | - | - |
 | [**PolyJarvis: An LLM-Orchestrated Agent for Automated All-Atom Molecular Dynamics of Amorphous Homopolymers**](https://arxiv.org/abs/2604.02537) | arXiv 2026 | 2026.04.02 | - | - |
 
-## Diffusion Models
+### Diffusion Models
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -95,7 +113,7 @@ Last updated: 2026-07-10
 | ![Star](https://img.shields.io/github/stars/hanyi2021/CrystalDiT.svg?style=social&label=Star)<br>[**CrystalDiT: A Diffusion Transformer for Crystal Generation**](https://arxiv.org/abs/2508.16614) | arXiv 2025 | 2025.08.13 | [GitHub](https://github.com/hanyi2021/CrystalDiT) | - |
 | ![Star](https://img.shields.io/github/stars/joshrosie/crystalite.svg?style=social&label=Star)<br>[**Crystalite: A Lightweight Transformer for Efficient Crystal Modeling**](https://arxiv.org/abs/2604.02270) | arXiv 2026 | 2026.04.02 | [GitHub](https://github.com/joshrosie/crystalite) | - |
 
-## Flow Matching Models
+### Flow Matching Models
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -107,7 +125,7 @@ Last updated: 2026-07-10
 | [**DMFlow: Disordered Materials Generation by Flow Matching**](https://arxiv.org/abs/2602.04734) | arXiv 2026 | 2026.02.04 | - | - |
 | [**Generating Symmetric Materials using Latent Flow Matching**](https://arxiv.org/abs/2605.10115) | arXiv 2026 | 2026.05.11 | - | - |
 
-## Symmetry-Aware & Wyckoff Generation
+### Symmetry-Aware & Wyckoff Generation
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -119,7 +137,7 @@ Last updated: 2026-07-10
 | [**Symmetry-aware Conditional Generation of Crystal Structures Using Diffusion Models**](https://arxiv.org/abs/2601.08115) | arXiv 2026 | 2026.01.13 | - | - |
 | [**Generating Symmetric Materials using Latent Flow Matching**](https://arxiv.org/abs/2605.10115) | arXiv 2026 | 2026.05.11 | - | - |
 
-## VAE Models
+### VAE Models
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -128,7 +146,7 @@ Last updated: 2026-07-10
 | [**VQCrystal: Leveraging Vector Quantization for Discovery of Stable Crystal Structures**](https://arxiv.org/abs/2409.06191) | arXiv 2024 | 2024.09.10 | - | - |
 | ![Star](https://img.shields.io/github/stars/MaterSim/LEGO-xtal.svg?style=social&label=Star)<br>[**AI-Assisted Rapid Crystal Structure Generation Towards a Target Local Environment**](https://arxiv.org/abs/2506.08224) | arXiv 2025 | 2025.06.09 | [GitHub](https://github.com/MaterSim/LEGO-xtal) | [Demo](http://lego-crystal.onrender.com) |
 
-## MOF & Porous Materials
+### MOF & Porous Materials
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -139,7 +157,7 @@ Last updated: 2026-07-10
 | ![Star](https://img.shields.io/github/stars/nayoung10/AtomMOF.svg?style=social&label=Star)<br>[**AtomMOF: All-Atom Flow Matching for MOF-Adsorbate Structure Prediction**](https://arxiv.org/abs/2602.07351) | arXiv 2026 | 2026.02.07 | [GitHub](https://github.com/nayoung10/AtomMOF) | - |
 | [**L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks**](https://arxiv.org/abs/2510.20976) | arXiv 2025 | 2025.10.23 | - | - |
 
-## Representation & Pretraining
+### Representation & Pretraining
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -156,7 +174,7 @@ Last updated: 2026-07-10
 | [**MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interaction Potentials**](https://arxiv.org/abs/2603.02002) | arXiv 2026 | 2026.03.02 | - | - |
 | [**DPA4: Pushing the Accuracy-Cost Frontier of Interatomic Potentials with EMFA SO(2) Convolution**](https://arxiv.org/abs/2606.02419) | arXiv 2026 | 2026.06.01 | - | - |
 
-## Multi-Modal Training & Learning
+### Multi-Modal Training & Learning
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
@@ -174,7 +192,7 @@ Last updated: 2026-07-10
 | [**L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks**](https://arxiv.org/abs/2510.20976) | arXiv 2025 | 2025.10.23 | - | - |
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | - | - |
 
-# Awesome Datasets, Benchmarks & Toolkits
+## Awesome Datasets, Benchmarks & Toolkits
 
 | Name | Type | Year | Code / Resource | Notes |
 | - | - | - | - | - |
@@ -195,6 +213,20 @@ Last updated: 2026-07-10
 | [**MatMMExtract / MatSciFig / MaterialScope**](https://arxiv.org/abs/2606.29667) | Multimodal dataset | 2026 | - | Pipeline and datasets for figure-level materials vision-language learning. |
 | [**Multicrossmodal Autonomous Materials Science Agent**](https://github.com/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent) | Agent framework | 2025 | [GitHub](https://github.com/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent) | Multi-agent integration of materials images, videos, tables, and literature. |
 
-# Contact
+## Citation
+
+If you find this repository useful for your research, please consider citing it:
+
+```bibtex
+@misc{yan2026awesomegenerativeaimaterialdiscovery,
+  title        = {Awesome Generative AI for Material Discovery},
+  author       = {Yan, Liang},
+  year         = {2026},
+  howpublished = {\url{https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery}},
+  note         = {GitHub repository}
+}
+```
+
+## Contact
 
 For any questions, feedback, or collaboration regarding this repository of papers and code, feel free to contact Liang Yan at [yanliangfdu@gmail.com]().
