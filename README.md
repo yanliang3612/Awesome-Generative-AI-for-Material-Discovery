@@ -315,12 +315,12 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 If you find this repository useful for your research, please consider citing it:
 
 ```bibtex
-@misc{yan2026awesomegenerativeaimaterialdiscovery,
-  title        = {Awesome Generative AI for Material Discovery},
+@misc{yan2025awesomegenerativeai,
   author       = {Yan, Liang},
-  year         = {2026},
+  title        = {Awesome Generative {AI} for Material Discovery},
+  year         = {2025},
   howpublished = {\url{https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery}},
-  note         = {GitHub repository}
+  note         = {GitHub repository, accessed 2026-07-10}
 }
 ```
 
