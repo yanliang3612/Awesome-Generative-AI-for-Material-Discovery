@@ -20,7 +20,8 @@
 </p>
 
 <p align="center">
-  <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong>
+  <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong><br>
+  <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em>
 </p>
 
 <p align="center">
