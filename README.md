@@ -20,6 +20,8 @@
 <p align="center">
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
   |
+  <a href="#community">Community</a>
+  |
   <a href="#awesome-algorithms">Algorithms</a>
   |
   <a href="#awesome-surveys-datasets-benchmarks--toolkits">Surveys & Resources</a>
@@ -34,6 +36,7 @@ Last updated: 2026-07-10
 ## Table of Contents
 
 - [Overview](#overview)
+- [Community](#community)
 - [Awesome Algorithms](#awesome-algorithms)
   - [Large Language Models](#large-language-models)
   - [Agentic Materials Discovery](#agentic-materials-discovery)
@@ -60,6 +63,22 @@ Last updated: 2026-07-10
 This repository tracks recent progress in generative AI for materials, including language-model-based crystal generation, diffusion and flow-matching models, Bayesian and generative flow networks, VAE-style generators, multimodal materials learning, agentic discovery workflows, foundation models, and evaluation resources.
 
 **Legend:** In `Awesome Algorithms`, `Code` links to implementations or official repositories and `Demo` links to project pages, web apps, or documentation. Resource sections use type-specific columns for companion material, data, evaluation suites, and software.
+
+## Community
+
+### Join the MatDiscoverAI Slack
+
+We created the MatDiscoverAI Slack community to connect researchers, students, engineers, and practitioners interested in this repository and generative AI for materials. It is a place to share new papers, datasets, benchmarks, and open-source projects; discuss methods, reproducibility, and open problems; ask questions; and find collaborators.
+
+**Option 1 — Invitation link:** [Join the MatDiscoverAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
+
+**Option 2 — QR code:** Scan the code below with your phone. The QR image is also clickable.
+
+<p align="center">
+  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
+    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the MatDiscoverAI Slack community" width="220">
+  </a>
+</p>
 
 ## Awesome Algorithms
 
