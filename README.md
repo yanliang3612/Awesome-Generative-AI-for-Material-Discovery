@@ -62,6 +62,7 @@ Last updated: 2026-07-10
   - [Datasets](#datasets)
   - [Benchmarks](#benchmarks)
   - [Toolkits](#toolkits)
+- [TODO](#todo)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -373,6 +374,14 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Materials Graph Library (MatGL), an open-source graph deep learning library for materials science and chemistry**](https://www.nature.com/articles/s41524-025-01742-y) | npj Computational Materials 2025 | 2025.08.05 | [GitHub](https://github.com/materialyzeai/matgl) | [Docs](https://matgl.ai/) |
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | - |
 | [**PhononScore: a phonon-aware scoring function for dynamical stability**](https://arxiv.org/abs/2607.08518) | arXiv 2026 | 2026.07.09 | [GitHub](https://github.com/xqh19970407/PhononScore) · [Dataset](https://zenodo.org/records/21157982) | [Online evaluator](http://phononbench.cn/phononscore/) |
+
+## TODO
+
+- [ ] Add a Xiaohongshu (小红书) blog
+- [ ] Add a Twitter / X blog
+- [ ] Build a project page
+- [ ] Update the repository on 2026-07-17 (weekly cadence), and sync updates in Slack and the WeChat group
+- [ ] Set up a WeChat group
 
 ## Citation
 
