@@ -7,6 +7,9 @@
   <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">
     <img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog">
   </a>
+  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
+    <img src="assets/slack-join-badge.svg" alt="Join MatDiscoverAI on Slack">
+  </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
   </a>
