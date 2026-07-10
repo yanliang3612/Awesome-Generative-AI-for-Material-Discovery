@@ -14,15 +14,15 @@
 </p>
 
 <p align="center">
-  <strong>A curated collection of papers, projects, datasets, and benchmarks on generative AI for material discovery.</strong>
+  <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
   |
-  <a href="#awesome-papers">Papers</a>
+  <a href="#awesome-algorithms">Algorithms</a>
   |
-  <a href="#awesome-datasets-benchmarks--toolkits">Datasets & Toolkits</a>
+  <a href="#awesome-surveys-datasets-benchmarks--toolkits">Surveys & Resources</a>
   |
   <a href="#citation">Citation</a>
 </p>
@@ -34,8 +34,7 @@ Last updated: 2026-07-10
 ## Table of Contents
 
 - [Overview](#overview)
-- [Awesome Papers](#awesome-papers)
-  - [Surveys & Benchmarks](#surveys--benchmarks)
+- [Awesome Algorithms](#awesome-algorithms)
   - [Large Language Models](#large-language-models)
   - [Agentic Materials Discovery](#agentic-materials-discovery)
   - [Diffusion Models](#diffusion-models)
@@ -46,7 +45,8 @@ Last updated: 2026-07-10
   - [MOF & Porous Materials](#mof--porous-materials)
   - [Representation & Pretraining](#representation--pretraining)
   - [Multi-Modal Training & Learning](#multi-modal-training--learning)
-- [Awesome Datasets, Benchmarks & Toolkits](#awesome-datasets-benchmarks--toolkits)
+- [Awesome Surveys, Datasets, Benchmarks & Toolkits](#awesome-surveys-datasets-benchmarks--toolkits)
+  - [Surveys](#surveys)
   - [Datasets](#datasets)
   - [Benchmarks](#benchmarks)
   - [Toolkits](#toolkits)
@@ -59,34 +59,16 @@ Last updated: 2026-07-10
 
 This repository tracks recent progress in generative AI for materials, including language-model-based crystal generation, diffusion and flow-matching models, Bayesian and generative flow networks, VAE-style generators, multimodal materials learning, agentic discovery workflows, foundation models, and evaluation resources.
 
-**Legend:** `Code` links to implementations or official repositories when available; `Demo` links to project pages, leaderboards, web apps, or documentation.
+**Legend:** In `Awesome Algorithms`, `Code` links to implementations or official repositories and `Demo` links to project pages, web apps, or documentation. Resource sections use type-specific columns for companion material, data, evaluation suites, and software.
 
-## Awesome Papers
+## Awesome Algorithms
 
-### Surveys & Benchmarks
-
-| Title | Venue | Date | Code | Demo |
-| - | - | - | - | - |
-| [**Matbench Discovery -- A framework to evaluate machine learning crystal stability predictions**](https://arxiv.org/abs/2308.14920) | arXiv 2023 | 2023.08.28 | [GitHub](https://github.com/janosh/matbench-discovery) | [Leaderboard](https://matbench-discovery.materialsproject.org/) |
-| [**Pretraining Strategies for Structure Agnostic Material Property Prediction**](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00919) | Journal of Chemical Information and Modeling 2024 | 2024.02.01 | - | - |
-| [**Artificial Intelligence Driving Materials Discovery? Perspective on the Article: Scaling Deep Learning for Materials Discovery**](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643) | Chemistry of Materials 2024 | 2024.08.08 | - | - |
-| ![Star](https://img.shields.io/github/stars/chandar-lab/crystal-gym.svg?style=social&label=Star)<br>[**CrystalGym: A New Benchmark for Materials Discovery Using Reinforcement Learning**](https://openreview.net/forum?id=RykFbDm5SU) | AI4Mat-ICLR 2025 Spotlight | 2025.03.03 | [GitHub](https://github.com/chandar-lab/crystal-gym) | - |
-| [**Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey**](https://arxiv.org/abs/2505.16379) | arXiv 2025 | 2025.05.22 | [GitHub](https://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation) | - |
-| [**MGB: The Material Generation Benchmark**](https://openreview.net/forum?id=K15Dqxm0ge) | AI4Mat-NeurIPS 2025 | 2025.09.20 | - | - |
-| [**All that structure matches does not glitter**](https://openreview.net/forum?id=ig9ujp50D4) | NeurIPS 2025 Datasets & Benchmarks | 2025.09.18 | [GitHub](https://github.com/FERMat-ML/OMatG) | - |
-| ![Star](https://img.shields.io/github/stars/atomgptlab/atombench.svg?style=social&label=Star)<br>[**AtomBench: A Benchmark for Generative Atomic Structure Models using GPT, Diffusion, and Flow Architectures**](https://arxiv.org/abs/2510.16165) | arXiv 2025 | 2025.10.17 | [GitHub](https://github.com/atomgptlab/atombench) | - |
-| ![Star](https://img.shields.io/github/stars/LeMaterial/lemat-genbench.svg?style=social&label=Star)<br>[**LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models**](https://arxiv.org/abs/2512.04562) | NeurIPS AI4Mat 2025 Spotlight | 2025.12.04 | [GitHub](https://github.com/LeMaterial/lemat-genbench) | [Leaderboard](https://huggingface.co/spaces/LeMaterial/LeMat-GenBench) |
-| [**Generative AI for crystal structures: a review**](https://www.nature.com/articles/s41524-025-01881-2) | npj Computational Materials 2025 | 2025.12.06 | - | - |
-| [**PhononBench: A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation**](https://arxiv.org/abs/2512.21227) | arXiv 2025 | 2025.12.24 | [GitHub](https://github.com/xqh19970407/PhononBench) | - |
-| [**Generative Models for Crystalline Materials**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202523620) | Advanced Materials 2026 | 2026.02.26 | - | - |
-| [**Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models**](https://arxiv.org/abs/2607.07647) | arXiv 2026 | 2026.07.08 | - | - |
-| [**PhononScore: a phonon-aware scoring function for dynamical stability**](https://arxiv.org/abs/2607.08518) | arXiv 2026 | 2026.07.09 | - | [Demo](http://phononbench.cn/phononscore/) |
+This section is limited to work whose primary contribution is a model, algorithm, representation, training method, or autonomous discovery workflow.
 
 ### Large Language Models
 
 | Title | Venue | Date | Code | Demo |
 | - | - | - | - | - |
-| [**ChatGPT in the Material Design: Selected Case Studies to Assess the Potential of ChatGPT**](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01702) | Journal of Chemical Information and Modeling 2024 | 2024.01.18 | - | - |
 | ![Star](https://img.shields.io/github/stars/facebookresearch/crystal-text-llm.svg?style=social&label=Star)<br>[**Fine-Tuned Language Models Generate Stable Inorganic Materials as Text**](https://arxiv.org/abs/2402.04379) | ICLR 2024 | 2024.02.06 | [GitHub](https://github.com/facebookresearch/crystal-text-llm) | - |
 | ![Star](https://img.shields.io/github/stars/lantunes/CrystaLLM.svg?style=social&label=Star)<br>[**Crystal structure generation with autoregressive large language modeling**](https://www.nature.com/articles/s41467-024-54639-7) | Nature Communications 2024 | 2024.11.28 | [GitHub](https://github.com/lantunes/CrystaLLM) | - |
 | ![Star](https://img.shields.io/github/stars/usnistgov/atomgpt.svg?style=social&label=Star)<br>[**AtomGPT: Atomistic Generative Pre-trained Transformer for Forward and Inverse Materials Design**](https://arxiv.org/abs/2405.03680) | arXiv 2024 | 2024.05.06 | [GitHub](https://github.com/usnistgov/atomgpt) | - |
@@ -225,6 +207,7 @@ This repository tracks recent progress in generative AI for materials, including
 | [**A Crystal-Specific Pre-Training Framework for Crystal Material Property Prediction**](https://arxiv.org/abs/2306.05344) | arXiv 2023 | 2023.06.08 | - | - |
 | ![Star](https://img.shields.io/github/stars/divelab/AIRS.svg?style=social&label=Star)<br>[**Efficient Approximations of Complete Interatomic Potentials for Crystal Property Prediction**](https://arxiv.org/abs/2306.10045) | ICML 2023 | 2023.06.12 | [GitHub](https://github.com/divelab/AIRS/tree/main/OpenMat/PotNet) | - |
 | ![Star](https://img.shields.io/github/stars/facebookresearch/JMP.svg?style=social&label=Star)<br>[**From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction**](https://arxiv.org/abs/2310.16802) | ICLR 2024 | 2023.10.25 | [GitHub](https://github.com/facebookresearch/JMP) | - |
+| [**Pretraining Strategies for Structure Agnostic Material Property Prediction**](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00919) | Journal of Chemical Information and Modeling 2024 | 2024.02.01 | - | - |
 | ![Star](https://img.shields.io/github/stars/divelab/AIRS.svg?style=social&label=Star)<br>[**Complete and Efficient Graph Transformers for Crystal Material Property Prediction**](https://arxiv.org/abs/2403.11857) | ICLR 2024 | 2024.03.18 | [GitHub](https://github.com/divelab/AIRS) | - |
 | [**A Diffusion-Based Pre-training Framework for Crystal Property Prediction**](https://ojs.aaai.org/index.php/AAAI/article/view/28748) | AAAI 2024 | 2024.03.24 | - | - |
 | ![Star](https://img.shields.io/github/stars/microsoft/mattersim.svg?style=social&label=Star)<br>[**MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures**](https://arxiv.org/abs/2405.04967) | arXiv 2024 | 2024.05.08 | [GitHub](https://github.com/microsoft/mattersim) | [Docs](https://microsoft.github.io/mattersim/) |
@@ -240,50 +223,61 @@ This repository tracks recent progress in generative AI for materials, including
 | ![Star](https://img.shields.io/github/stars/vertaix/LLM-Prop.svg?style=social&label=Star)<br>[**LLM-Prop: Predicting Physical And Electronic Properties of Crystalline Solids From Their Text Descriptions**](https://arxiv.org/abs/2310.14029) | arXiv 2023 | 2023.10.21 | [GitHub](https://github.com/vertaix/LLM-Prop) | - |
 | [**Multimodal learning for crystalline materials**](https://arxiv.org/abs/2312.00111) | arXiv 2023 | 2023.11.30 | - | - |
 | [**LBNL: A foundation model for atomistic materials chemistry**](https://arxiv.org/abs/2401.00096) | arXiv 2023 | 2023.12.29 | - | - |
-| [**Materials science in the era of large language models: a perspective**](https://arxiv.org/abs/2403.06949) | Digital Discovery 2024 | 2024.03.11 | - | - |
 | ![Star](https://img.shields.io/github/stars/kdmsit/crysmmnet.svg?style=social&label=Star)<br>[**CrysMMNet: Multimodal Representation for Crystal Property Prediction**](https://arxiv.org/abs/2307.05390) | UAI 2023 | 2024.06.09 | [GitHub](https://github.com/kdmsit/crysmmnet) | - |
-| ![Star](https://img.shields.io/github/stars/lamalab-org/MatText.svg?style=social&label=Star)<br>[**MatText: Do Language Models Need More than Text & Scale for Materials Modeling?**](https://arxiv.org/abs/2406.17295) | arXiv 2024 | 2024.06.25 | [GitHub](https://github.com/lamalab-org/MatText) | - |
 | ![Star](https://img.shields.io/github/stars/parkjunkil/MOFFUSION.svg?style=social&label=Star)<br>[**Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques**](https://www.nature.com/articles/s41467-024-55390-9) | Nature Communications 2025 | 2024.07.05 | [GitHub](https://github.com/parkjunkil/MOFFUSION) | [Demo](https://parkjunkil.github.io/MOFFUSION/) |
-| ![Star](https://img.shields.io/github/stars/lamalab-org/matextract-book.svg?style=social&label=Star)<br>[**From Text to Insight: Large Language Models for Materials Science Data Extraction**](https://arxiv.org/abs/2407.16867) | arXiv 2024 | 2024.07.23 | [GitHub](https://github.com/lamalab-org/matextract-book) | - |
 | [**Graph-Text Contrastive Learning of Inorganic Crystal Structure toward a Foundation Model of Inorganic Materials**](https://chemrxiv.org/engage/chemrxiv/article-details/661bd38821291e5d1dd0f10b) | ChemRxiv 2024 | 2024.08.15 | - | - |
 | ![Star](https://img.shields.io/github/stars/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent.svg?style=social&label=Star)<br>[**Multicrossmodal Automated Agent for Integrating Diverse Materials Science Data**](https://arxiv.org/abs/2505.15132) | arXiv 2025 | 2025.05.21 | [GitHub](https://github.com/adibgpt/Multicrossmodal-Autonomous-Materials-Science-Agent) | - |
 | [**"DIVE" into Hydrogen Storage Materials Discovery with AI Agents**](https://arxiv.org/abs/2508.13251) | arXiv 2025 | 2025.08.18 | - | - |
 | [**L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks**](https://arxiv.org/abs/2510.20976) | arXiv 2025 | 2025.10.23 | - | - |
-| [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | - | - |
 | [**Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crystal Modeling**](https://openreview.net/forum?id=lKyD1ulXpY) | ICML 2026 | 2026.04.30 | - | - |
 | [**Atomistic Language Models Understand and Generate Materials**](https://arxiv.org/abs/2606.21395) | arXiv 2026 | 2026.06.19 | - | - |
 
-## Awesome Datasets, Benchmarks & Toolkits
+## Awesome Surveys, Datasets, Benchmarks & Toolkits
 
-This section is reserved for reusable resources: downloadable datasets, standardized evaluation suites, and general-purpose software. Implementations centered on a single generative model are listed only in the method categories above.
+This section contains non-algorithm resources. `Surveys` covers reviews, perspectives, tutorial reviews, and broad capability assessments; `Datasets` requires reusable downloadable data; `Benchmarks` requires explicit evaluation tasks, protocols, metrics, or leaderboards; and `Toolkits` requires reusable multi-model software, data pipelines, or hosted evaluation services. Every resource backed by a paper is listed under its full paper title. A paper is cross-listed only when it releases independently reusable resources of more than one type.
+
+### Surveys
+
+| Title | Venue | Date | Companion Repository | Guide |
+| - | - | - | - | - |
+| [**ChatGPT in the Material Design: Selected Case Studies to Assess the Potential of ChatGPT**](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01702) | Journal of Chemical Information and Modeling 2024 | 2024.01.18 | - | - |
+| [**Artificial Intelligence Driving Materials Discovery? Perspective on the Article: Scaling Deep Learning for Materials Discovery**](https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643) | Chemistry of Materials 2024 | 2024.04.23 | - | - |
+| [**Materials science in the era of large language models: a perspective**](https://doi.org/10.1039/D4DD00074A) | Digital Discovery 2024 | 2024.06.05 | - | - |
+| ![Star](https://img.shields.io/github/stars/lamalab-org/matextract-book.svg?style=social&label=Star)<br>[**From text to insight: large language models for chemical data extraction**](https://pubs.rsc.org/en/content/articlehtml/2025/cs/d4cs00913d) | Chemical Society Reviews 2025 | 2024.12.20 | [GitHub](https://github.com/lamalab-org/matextract-book) | [Book](https://matextract.pub/) |
+| [**Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey**](https://arxiv.org/abs/2505.16379) | arXiv 2025 | 2025.05.22 | [GitHub](https://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation) | - |
+| [**Generative AI for crystal structures: a review**](https://www.nature.com/articles/s41524-025-01881-2) | npj Computational Materials 2025 | 2025.12.06 | - | - |
+| [**Generative Models for Crystalline Materials**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202523620) | Advanced Materials 2026 | 2026.02.26 | - | - |
 
 ### Datasets
 
-| Name | Data type | Data | Paper / Project | Notes |
+| Title | Venue | Date | Dataset(s) | Code / Project |
 | - | - | - | - | - |
-| [**Open Materials 2024 (OMat24)**](https://arxiv.org/abs/2410.12771) | Inorganic structures with DFT energies and forces | [Hugging Face](https://huggingface.co/datasets/fairchem/OMAT24) | [Paper](https://arxiv.org/abs/2410.12771) · [FAIR-Chem](https://github.com/facebookresearch/fairchem) | More than 100 million structures for training atomistic foundation models. |
-| [**MatraGenoa3M**](https://doi.org/10.6084/m9.figshare.28271294.v1) | Generated inorganic crystal structures | [Figshare](https://doi.org/10.6084/m9.figshare.28271294.v1) | [Paper](https://www.nature.com/articles/s41524-025-01940-8) · [Project](https://github.com/ppdebreuck/matra-genoa) | Three million generated, unrelaxed crystal structures from Matra-Genoa. |
-| [**MatSciFig**](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | Panel-level materials image-text pairs | [Hugging Face](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | [Paper](https://arxiv.org/abs/2606.29667) | 391,606 annotated panels extracted from 180,571 scientific figures. |
-| [**MaterialScope**](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | Compound-figure detection annotations | [Hugging Face](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | [Paper](https://arxiv.org/abs/2606.29667) | 2,811 manually annotated materials-science figures with 12,906 bounding boxes. |
+| [**A generative material transformer using Wyckoff representation**](https://www.nature.com/articles/s41524-025-01940-8) | npj Computational Materials 2026 | 2026.01.23 | [MatraGenoa3M](https://doi.org/10.6084/m9.figshare.28271294.v1) | [Project](https://github.com/ppdebreuck/matra-genoa) |
+| [**The Open Materials 2024 (OMat24) inorganic materials dataset and models**](https://www.nature.com/articles/s43588-026-00996-w) | Nature Computational Science 2026 | 2026.06.02 | [OMat24](https://huggingface.co/datasets/facebook/OMAT24) · [Models](https://huggingface.co/facebook/OMAT24) | [FAIR-Chem](https://github.com/facebookresearch/fairchem) |
+| [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatSciFig](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) |
+| [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MaterialScope](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) |
 
 ### Benchmarks
 
-| Name | Evaluation target | Resources | Paper | Notes |
+| Title | Venue | Date | Code / Data | Demo / Leaderboard |
 | - | - | - | - | - |
-| [**Matbench Discovery**](https://matbench-discovery.materialsproject.org/) | Crystal-stability discovery | [GitHub](https://github.com/janosh/matbench-discovery) · [Leaderboard](https://matbench-discovery.materialsproject.org/) | [Paper](https://arxiv.org/abs/2308.14920) | Reproducible evaluation of models that rank candidate crystals by predicted stability. |
-| [**MGB**](https://openreview.net/forum?id=K15Dqxm0ge) | Material generation across crystals, MOFs, and OOD tasks | Not publicly linked | [Paper](https://openreview.net/forum?id=K15Dqxm0ge) | Standardized multi-task protocol; the paper states that code and model weights are being organized for release. |
-| [**LeMat-GenBench**](https://github.com/LeMaterial/lemat-genbench) | Inorganic crystal generation | [GitHub](https://github.com/LeMaterial/lemat-genbench) · [Leaderboard](https://huggingface.co/spaces/LeMaterial/LeMat-GenBench) | [Paper](https://arxiv.org/abs/2512.04562) | Open evaluation suite covering validity, stability, novelty, diversity, and efficiency. |
-| [**CrystalGym**](https://github.com/chandar-lab/crystal-gym) | Reinforcement learning for materials discovery | [GitHub](https://github.com/chandar-lab/crystal-gym) | [Paper](https://openreview.net/forum?id=RykFbDm5SU) | Reusable RL environments and evaluation tasks for crystal discovery. |
-| [**PhononBench**](https://github.com/xqh19970407/PhononBench) | Dynamical stability of generated crystals | [GitHub](https://github.com/xqh19970407/PhononBench) · [Dataset](https://zenodo.org/records/18185662) · [API](http://phononbench.cn) | [Paper](https://arxiv.org/abs/2512.21227) | Phonon-labeled generated structures with an open high-throughput evaluation workflow. |
-| [**AtomBench**](https://github.com/atomgptlab/atombench) | Crystal-structure reconstruction | [GitHub](https://github.com/atomgptlab/atombench) · [Docs](https://atomgptlab.github.io/atombench/) | [Paper](https://arxiv.org/abs/2510.16165) | Installable cross-model benchmarking package with reproducible analysis pipelines. |
+| ![Star](https://img.shields.io/github/stars/chandar-lab/crystal-gym.svg?style=social&label=Star)<br>[**CrystalGym: A New Benchmark for Materials Discovery Using Reinforcement Learning**](https://openreview.net/forum?id=RykFbDm5SU) | AI4Mat-ICLR 2025 Spotlight | 2025.03.03 | [GitHub](https://github.com/chandar-lab/crystal-gym) | - |
+| [**A framework to evaluate machine learning crystal stability predictions**](https://www.nature.com/articles/s42256-025-01055-1) | Nature Machine Intelligence 2025 | 2025.06.23 | [Matbench Discovery](https://github.com/janosh/matbench-discovery) | [Leaderboard](https://matbench-discovery.materialsproject.org/) |
+| [**All that structure matches does not glitter**](https://openreview.net/forum?id=ig9ujp50D4) | NeurIPS 2025 Datasets & Benchmarks Poster | 2025.09.18 | [METRe / cRMSE](https://github.com/FERMat-ML/OMatG) · [Carbon-24](https://huggingface.co/datasets/colabfit/carbon-24_unique) | - |
+| [**MGB: The Material Generation Benchmark**](https://openreview.net/forum?id=K15Dqxm0ge) | AI4Mat-NeurIPS 2025 | 2025.09.20 | - | - |
+| ![Star](https://img.shields.io/github/stars/atomgptlab/atombench.svg?style=social&label=Star)<br>[**AtomBench: A Benchmarking Framework for Generative Crystal Reconstruction Models in Conventional Superconductors**](https://arxiv.org/abs/2510.16165) | arXiv 2025 | 2025.10.17 | [GitHub](https://github.com/atomgptlab/atombench) | [Docs](https://atomgptlab.github.io/atombench/) · [Leaderboard](https://atomgptlab.github.io/jarvis_leaderboard/Special/AtomGenBench) |
+| ![Star](https://img.shields.io/github/stars/LeMaterial/lemat-genbench.svg?style=social&label=Star)<br>[**LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models**](https://arxiv.org/abs/2512.04562) | NeurIPS 2025 AI4Mat Workshop | 2025.12.04 | [GitHub](https://github.com/LeMaterial/lemat-genbench) | [Leaderboard](https://huggingface.co/spaces/LeMaterial/LeMat-GenBench) |
+| [**PhononBench: A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation**](https://arxiv.org/abs/2512.21227) | arXiv 2025 | 2025.12.24 | [GitHub](https://github.com/xqh19970407/PhononBench) · [Dataset](https://zenodo.org/records/18185662) | [API](http://phononbench.cn) |
+| [**Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models**](https://arxiv.org/abs/2607.07647) | arXiv 2026 | 2026.07.08 | - | - |
 
 ### Toolkits
 
-| Name | Scope | Resources | Paper | Notes |
+| Title | Venue | Date | Toolkit / Service | Docs / Demo |
 | - | - | - | - | - |
-| [**MatGL**](https://github.com/materialyzeai/matgl) | Materials graph deep learning | [GitHub](https://github.com/materialyzeai/matgl) · [Docs](https://matgl.ai/) | [Paper](https://www.nature.com/articles/s41524-025-01742-y) | Extensible library with multiple architectures, pretrained potentials, and simulation interfaces. |
-| [**MatMMExtract**](https://github.com/CMEG-IITR/matmmextract) | Multimodal dataset construction | [GitHub](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | [Paper](https://arxiv.org/abs/2606.29667) | Pipeline for decomposing compound materials figures and creating grounded panel annotations. |
-| [**PhononScore**](http://phononbench.cn/phononscore/) | Dynamical-stability scoring | [Online evaluator](http://phononbench.cn/phononscore/) | [Paper](https://arxiv.org/abs/2607.08518) | Phonon-aware scoring function for generated crystals. |
+| ![Star](https://img.shields.io/github/stars/lamalab-org/MatText.svg?style=social&label=Star)<br>[**Less can be more for predicting properties with large language models**](https://arxiv.org/abs/2406.17295) | arXiv 2024 | 2024.06.25 | [MatText](https://github.com/lamalab-org/MatText) | - |
+| [**Materials Graph Library (MatGL), an open-source graph deep learning library for materials science and chemistry**](https://www.nature.com/articles/s41524-025-01742-y) | npj Computational Materials 2025 | 2025.08.05 | [GitHub](https://github.com/materialyzeai/matgl) | [Docs](https://matgl.ai/) |
+| [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | - |
+| [**PhononScore: a phonon-aware scoring function for dynamical stability**](https://arxiv.org/abs/2607.08518) | arXiv 2026 | 2026.07.09 | [GitHub](https://github.com/xqh19970407/PhononScore) · [Dataset](https://zenodo.org/records/21157982) | [Online evaluator](http://phononbench.cn/phononscore/) |
 
 ## Citation
 
