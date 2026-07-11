@@ -38,7 +38,7 @@
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-10
+Last updated: 2026-07-11
 
 ---
 
@@ -64,6 +64,7 @@ Last updated: 2026-07-10
   - [Benchmarks](#benchmarks)
   - [Toolkits](#toolkits)
 - [TODO](#todo)
+- [Acknowledgements](#acknowledgements)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -383,6 +384,12 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 - [ ] Build a project page
 - [ ] Update the repository on 2026-07-17 (weekly cadence), and sync updates in Slack and the WeChat group
 - [ ] Set up a WeChat group
+
+## Acknowledgements
+
+We gratefully acknowledge ChatGPT for being a helpful collaborator in organizing, cleaning, and expanding this repository.
+
+We also thank **Osman Goni Ridwan** from the University of North Carolina at Charlotte for contributing to the current commit / pull workflow and supporting the maintenance of this project: [https://oridwan.github.io/](https://oridwan.github.io/).
 
 ## Citation
 
