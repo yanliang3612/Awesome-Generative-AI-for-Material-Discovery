@@ -387,9 +387,9 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 
 ## Acknowledgements
 
-We gratefully acknowledge ChatGPT for being a helpful collaborator in organizing, cleaning, and expanding this repository.
+This repository has benefited from close collaboration with ChatGPT in organizing, refining, and expanding the collection.
 
-We also thank **Osman Goni Ridwan** from the University of North Carolina at Charlotte for contributing to the current commit / pull workflow and supporting the maintenance of this project: [https://oridwan.github.io/](https://oridwan.github.io/).
+We are also grateful to contributors who have helped maintain and improve the project, including [**Osman Goni Ridwan**](https://oridwan.github.io/) from the University of North Carolina at Charlotte.
 
 ## Citation
 
