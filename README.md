@@ -389,7 +389,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 
 This repository has benefited from close collaboration with ChatGPT in organizing, refining, and expanding the collection.
 
-We are also grateful to contributors who have helped maintain and improve the project, including [**Osman Goni Ridwan**](https://oridwan.github.io/) from the University of North Carolina at Charlotte.
+We are also grateful to contributors who have helped maintain and improve the project, including [**Osman Goni Ridwan**](https://oridwan.github.io/) (UNC, Charlotte).
 
 ## Citation
 
