@@ -27,6 +27,23 @@
   </a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
+        <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the MatDiscoverAI Slack group" width="180">
+      </a>
+      <br>
+      <strong>Slack Group</strong>
+    </td>
+    <td align="center">
+      <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="180">
+      <br>
+      <strong>WeChat Group</strong>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
   |
