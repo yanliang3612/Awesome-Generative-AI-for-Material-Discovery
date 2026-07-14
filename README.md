@@ -104,7 +104,7 @@ We created the MatDiscoverAI Slack community to connect researchers, students, e
 We also have a WeChat group for Chinese-language discussions and weekly update syncs. Scan the QR code below with WeChat to join.
 
 <p align="center">
-  <img src="assets/matdiscover_ai_wechat.png" alt="QR code to join the MatDiscoverAI WeChat group" width="220">
+  <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="300">
 </p>
 
 ## Awesome Algorithms
