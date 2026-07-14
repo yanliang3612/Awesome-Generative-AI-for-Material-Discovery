@@ -21,7 +21,8 @@
 
 <p align="center">
   <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong><br>
-  <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em>
+  <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em><br>
+  <em>Want paper drops, benchmark updates, and less lonely literature mining? Join our <a href="#community">Community</a> on Slack and WeChat.</em>
 </p>
 
 <p align="center">
@@ -95,6 +96,10 @@ We created the MatDiscoverAI Slack community to connect researchers, students, e
     <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the MatDiscoverAI Slack community" width="220">
   </a>
 </p>
+
+### Join the WeChat Group
+
+We are also organizing a WeChat group for Chinese-language discussions and weekly update syncs. If you would like to join, please contact the maintainer through the [Contact](#contact) section; a QR code will be added once the group setup is finalized.
 
 ## Awesome Algorithms
 
