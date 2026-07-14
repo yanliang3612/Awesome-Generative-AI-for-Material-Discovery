@@ -22,7 +22,9 @@
 <p align="center">
   <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong><br>
   <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em><br>
-  <em>Want paper drops, benchmark updates, and less lonely literature mining? Join our <a href="#community">Community</a> on Slack and WeChat.</em>
+  <a href="#community">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=700&amp;size=18&amp;pause=1200&amp;color=0A66C2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Join+the+MatDiscoverAI+Community+on+Slack+%26+WeChat;Weekly+paper+drops+%E2%80%A2+benchmarks+%E2%80%A2+open-source+projects" alt="Join the MatDiscoverAI Community on Slack and WeChat">
+  </a>
 </p>
 
 <p align="center">
