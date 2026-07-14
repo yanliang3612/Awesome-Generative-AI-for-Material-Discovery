@@ -417,7 +417,6 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 - [ ] Add a Twitter / X blog
 - [ ] Build a project page
 - [ ] Update the repository on 2026-07-17 (weekly cadence), and sync updates in Slack and the WeChat group
-- [ ] Set up a WeChat group
 
 ## Acknowledgements
 
