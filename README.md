@@ -10,6 +10,9 @@
   <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
     <img src="assets/slack-join-badge.svg" alt="Join MatDiscoverAI on Slack">
   </a>
+  <a href="#join-the-wechat-group">
+    <img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&logoColor=white" alt="Join MatDiscoverAI on WeChat">
+  </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
   </a>
