@@ -138,6 +138,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Reasoning-to-Simulation: An Agentic Framework for Discovery of Electrolyte Materials**](https://openreview.net/forum?id=MEXl18VhBL) | AI4Mat-ICLR 2026 | 2026.03.02 | - | - |
 | [**Generative Discovery of Magnetic Insulators under Competing Physical Constraints**](https://arxiv.org/abs/2604.21073) | arXiv 2026 | 2026.04.22 | - | - |
 | [**AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces**](https://arxiv.org/abs/2606.19152) | arXiv 2026 | 2026.06.17 | - | - |
+| [**Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery**](https://arxiv.org/abs/2607.07604) | arXiv 2026 | 2026.07.08 | - | - |
 
 ### GAN Models
 
@@ -321,6 +322,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey**](https://arxiv.org/abs/2505.16379) | arXiv 2025 | 2025.05.22 | [GitHub](https://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation) | - |
 | [**Generative AI for crystal structures: a review**](https://www.nature.com/articles/s41524-025-01881-2) | npj Computational Materials 2025 | 2025.12.06 | - | - |
 | [**Generative Models for Crystalline Materials**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202523620) | Advanced Materials 2026 | 2026.02.26 | - | - |
+| [**Physics adapted generative AI for metal insulator transition materials under label scarcity**](https://arxiv.org/abs/2607.03578) | arXiv 2026 | 2026.07.03 | - | - |
 
 ### Datasets
 
@@ -376,6 +378,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Materials Graph Library (MatGL), an open-source graph deep learning library for materials science and chemistry**](https://www.nature.com/articles/s41524-025-01742-y) | npj Computational Materials 2025 | 2025.08.05 | [GitHub](https://github.com/materialyzeai/matgl) | [Docs](https://matgl.ai/) |
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | - |
 | [**PhononScore: a phonon-aware scoring function for dynamical stability**](https://arxiv.org/abs/2607.08518) | arXiv 2026 | 2026.07.09 | [GitHub](https://github.com/xqh19970407/PhononScore) · [Dataset](https://zenodo.org/records/21157982) | [Online evaluator](http://phononbench.cn/phononscore/) |
+| [**Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis**](https://arxiv.org/abs/2607.08890) | arXiv 2026 | 2026.07.09 | [AGAPI-XRD API](https://atomgpt.org/) | - |
 
 ## TODO
 
