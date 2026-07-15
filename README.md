@@ -1,67 +1,28 @@
 # Awesome Generative AI for Material Discovery
 
-<p align="center">
-  <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">
-    <img src="https://awesome.re/badge.svg" alt="Awesome">
-  </a>
-  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">
-    <img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog">
-  </a>
-  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/slack-join-badge.svg" alt="Join SciGenAI on Slack">
-  </a>
-  <a href="#join-the-wechat-group">
-    <img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&logoColor=white" alt="Join MatDiscoverAI on WeChat">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
-  </a>
-</p>
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/yanliang3612/Awesome-Generative-AI-for-Material-Discovery?style=flat&logo=github)](https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/yanliang3612/Awesome-Generative-AI-for-Material-Discovery?style=flat&logo=git)](https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery/commits/main)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 <p align="center">
   <img src="assets/generative-ai-materials-logo.png" alt="Generative AI for Material Discovery logo" width="260">
 </p>
 
 <p align="center">
-  <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong><br>
-  <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em><br>
-  <a href="#community">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=700&amp;size=18&amp;pause=1200&amp;color=0A66C2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Join+the+SciGenAI+Community+on+Slack+%26+WeChat;Weekly+paper+drops+%E2%80%A2+benchmarks+%E2%80%A2+open-source+projects" alt="Join the SciGenAI Community on Slack and WeChat">
-  </a>
+  <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-        <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="180">
-      </a>
-      <br>
-      <strong>SciGenAI Slack</strong>
-    </td>
-    <td align="center">
-      <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="180">
-      <br>
-      <strong>WeChat Group</strong>
-    </td>
-  </tr>
-</table>
-
 <p align="center">
-  <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">Project Page</a>
-  |
-  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">Zhihu Blog</a>
-  |
-  <a href="#community">Community</a>
-  |
-  <a href="#awesome-algorithms">Algorithms</a>
-  |
-  <a href="#awesome-surveys-datasets-benchmarks--toolkits">Surveys & Resources</a>
-  |
+  <a href="#awesome-algorithms">Algorithms</a> ·
+  <a href="#awesome-surveys-datasets-benchmarks--toolkits">Resources</a> ·
+  <a href="#community">Community</a> ·
+  <a href="#contributing">Contributing</a> ·
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-15
+> If this list saves you time, consider giving it a ⭐. New papers, datasets, benchmarks, and toolkits are welcome through [pull requests](CONTRIBUTING.md).
 
 ---
 
@@ -87,6 +48,7 @@ Last updated: 2026-07-15
   - [Benchmarks](#benchmarks)
   - [Toolkits](#toolkits)
 - [TODO](#todo)
+- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [Citation](#citation)
 - [Contact](#contact)
@@ -101,33 +63,29 @@ This repository tracks progress in generative AI for materials, including langua
 
 ## Community
 
-### Zhihu Blog
-
-For Chinese-language project introductions and updates, visit our [Zhihu Blog](https://zhuanlan.zhihu.com/p/2058955167744136801).
-
-### Join the SciGenAI Slack
-
 SciGenAI is a generative AI for science community where researchers, students, engineers, and practitioners can discuss ideas, share work, and find collaborators across AI4Science. The workspace hosts channels for several AI4Science projects, including a dedicated channel for **Awesome Generative AI for Material Discovery**.
 
 In the materials channel, you can ask questions and get timely help, discuss papers and code, and coordinate issues, commits, and pull requests with project contributors.
 
-**Option 1 — Invitation link:** [Join the SciGenAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
+- [Join the SciGenAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
+- Follow the Chinese-language project updates on [Zhihu](https://zhuanlan.zhihu.com/p/2058955167744136801)
 
-**Option 2 — QR code:** Scan the code below with your phone. The QR image is also clickable.
-
-<p align="center">
-  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="220">
-  </a>
-</p>
-
-### Join the WeChat Group
-
-We also have a WeChat group for Chinese-language discussions and weekly update syncs. Scan the QR code below with WeChat to join.
-
-<p align="center">
-  <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="300">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
+        <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="180">
+      </a>
+      <br>
+      <strong>SciGenAI Slack</strong>
+    </td>
+    <td align="center">
+      <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="180">
+      <br>
+      <strong>WeChat</strong>
+    </td>
+  </tr>
+</table>
 
 ## Awesome Algorithms
 
@@ -435,6 +393,10 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 - [ ] Build a project page
 - [ ] Update the repository on 2026-07-17 (weekly cadence), and sync updates in Slack and the WeChat group
 
+## Contributing
+
+Contributions are welcome. Please read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. To suggest a paper or resource, use the repository's [pull request template](.github/pull_request_template.md) and include an official paper link plus any verified code, data, or project links.
+
 ## Acknowledgements
 
 This repository has benefited from close collaboration with ChatGPT in organizing, refining, and expanding the collection.
@@ -457,4 +419,4 @@ If you find this repository useful for your research, please consider citing it:
 
 ## Contact
 
-For any questions, feedback, or collaboration regarding this repository of papers and code, feel free to contact Liang Yan at [yanliangfdu@gmail.com]().
+For questions, feedback, or collaboration, contact Liang Yan at [yanliangfdu@gmail.com](mailto:yanliangfdu@gmail.com).
