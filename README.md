@@ -154,6 +154,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**MatMind: A Structure-Activity Knowledge-Driven Generative Foundation Model for Materials Science**](https://arxiv.org/abs/2606.07712) | arXiv 2026 | 2026.06.05 | - | - |
 | [**LapidaryEngine: Fully Conversational Crystal Generation**](https://arxiv.org/abs/2606.14215) | arXiv 2026 | 2026.06.12 | - | - |
 | [**Atomistic Language Models Understand and Generate Materials**](https://arxiv.org/abs/2606.21395) | arXiv 2026 | 2026.06.19 | - | - |
+| [**Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses**](https://arxiv.org/abs/2607.08003) | arXiv 2026 | 2026.07.09 | - | - |
 
 ### Agentic Materials Discovery
 
@@ -171,6 +172,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces**](https://arxiv.org/abs/2606.19152) | arXiv 2026 | 2026.06.17 | - | - |
 | [**Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery**](https://arxiv.org/abs/2607.07604) | arXiv 2026 | 2026.07.08 | - | - |
 | [**Autonomous in-silico inorganic materials discovery via multi-agent physics-aware scientific reasoning**](https://doi.org/10.1038/s41524-026-02205-8) | npj Computational Materials 2026 | 2026.07.08 | - | - |
+| [**Large language model agents accelerate inverse design of metal-organic frameworks for gas separation**](https://arxiv.org/abs/2607.10559) | arXiv 2026 | 2026.07.12 | - | - |
 
 ### GAN Models
 
@@ -181,6 +183,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures**](https://arxiv.org/abs/2007.11228) | npj Computational Materials 2021 | 2020.07.22 | - | - |
 | ![Star](https://img.shields.io/github/stars/MilesZhao/CubicGAN.svg?style=social&label=Star)<br>[**High-throughput discovery of novel cubic crystal materials using deep generative neural networks**](https://arxiv.org/abs/2102.01880) | Advanced Science 2021 | 2021.02.03 | [GitHub](https://github.com/MilesZhao/CubicGAN) | [Database](http://www.carolinamatdb.org/) |
 | ![Star](https://img.shields.io/github/stars/MilesZhao/PGCGM.svg?style=social&label=Star)<br>[**Physics Guided Deep Learning for Generative Design of Crystal Materials with Symmetry Constraints**](https://arxiv.org/abs/2203.14352) | npj Computational Materials 2023 | 2022.03.27 | [GitHub](https://github.com/MilesZhao/PGCGM) | - |
+| [**Inverse Design of Tunable Infrared Metasurface Absorbers via a Conditional Wasserstein Generative Adversarial Network**](https://doi.org/10.1002/adom.71441) | Advanced Optical Materials 2026 | 2026.07.14 | - | - |
 
 ### Diffusion Models
 
@@ -323,6 +326,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models**](https://arxiv.org/abs/2605.08960) | arXiv 2026 | 2026.05.09 | - | - |
 | ![Star](https://img.shields.io/github/stars/liun-online/Crys_JEPA.svg?style=social&label=Star)<br>[**Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement**](https://arxiv.org/abs/2605.14759) | arXiv 2026 | 2026.05.14 | [GitHub](https://github.com/liun-online/Crys_JEPA) | - |
 | [**CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery**](https://arxiv.org/abs/2607.11712) | arXiv 2026 | 2026.07.13 | - | - |
+| [**Intrinsically Design-Rule-Compliant Nanophotonic Inverse Design via Learned Generative Manifolds**](https://doi.org/10.1002/lpor.71486) | Laser & Photonics Reviews 2026 | 2026.07.08 | - | - |
 
 ### Multi-Modal Training & Learning
 
@@ -361,6 +365,8 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Generative Models for Crystalline Materials**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202523620) | Advanced Materials 2026 | 2026.02.26 | - | - |
 | [**Physics adapted generative AI for metal insulator transition materials under label scarcity**](https://arxiv.org/abs/2607.03578) | arXiv 2026 | 2026.07.03 | - | - |
 | [**Managing autonomous materials labs with multi-agent AI and its implications for the science of science**](https://doi.org/10.1038/s43246-026-01219-5) | Communications Materials 2026 | 2026.07.08 | - | - |
+| [**From screening to generative design in nucleic acid delivery**](https://doi.org/10.1038/s41578-026-00944-0) | Nature Reviews Materials 2026 | 2026.07.08 | - | - |
+| [**Closed-Loop Machine Learning in Materials Discovery: From Predict-Validate-Update Paradigms to Autonomous Ecosystems**](https://doi.org/10.1007/s11831-026-10733-1) | Archives of Computational Methods in Engineering 2026 | 2026.07.13 | - | - |
 
 ### Datasets
 
