@@ -68,7 +68,6 @@ Last updated: 2026-07-15
 ## Table of Contents
 
 - [Overview](#overview)
-- [Community](#community)
 - [Awesome Algorithms](#awesome-algorithms)
   - [Large Language Models](#large-language-models)
   - [Agentic Materials Discovery](#agentic-materials-discovery)
@@ -88,6 +87,7 @@ Last updated: 2026-07-15
   - [Toolkits](#toolkits)
 - [TODO](#todo)
 - [Acknowledgements](#acknowledgements)
+- [Community](#community)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -98,36 +98,6 @@ Last updated: 2026-07-15
 This repository tracks progress in generative AI for materials, including language-model-based crystal generation, adversarial, diffusion and flow-matching models, Bayesian and generative flow networks, VAE-style generators, multimodal materials learning, agentic discovery workflows, foundation models, and evaluation resources.
 
 **Legend:** In `Awesome Algorithms`, `Code` links to implementations or official repositories and `Demo` links to project pages, web apps, or documentation. Resource sections use type-specific columns for companion material, data, evaluation suites, and software.
-
-## Community
-
-### Zhihu Blog
-
-For Chinese-language project introductions and updates, visit our [Zhihu Blog](https://zhuanlan.zhihu.com/p/2058955167744136801).
-
-### Join the SciGenAI Slack
-
-SciGenAI is a generative AI for science community where researchers, students, engineers, and practitioners can discuss ideas, share work, and find collaborators across AI4Science. The workspace hosts channels for several AI4Science projects, including a dedicated channel for **Awesome Generative AI for Material Discovery**.
-
-In the materials channel, you can ask questions and get timely help, discuss papers and code, and coordinate issues, commits, and pull requests with project contributors.
-
-**Option 1 — Invitation link:** [Join the SciGenAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
-
-**Option 2 — QR code:** Scan the code below with your phone. The QR image is also clickable.
-
-<p align="center">
-  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="220">
-  </a>
-</p>
-
-### Join the WeChat Group
-
-We also have a WeChat group for Chinese-language discussions and weekly update syncs. Scan the QR code below with WeChat to join.
-
-<p align="center">
-  <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="300">
-</p>
 
 ## Awesome Algorithms
 
@@ -440,6 +410,36 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 This repository has benefited from close collaboration with ChatGPT in organizing, refining, and expanding the collection.
 
 We are also grateful to contributors who have helped maintain and improve the project, including [**Osman Goni Ridwan**](https://oridwan.github.io/) (UNC, Charlotte).
+
+## Community
+
+### Zhihu Blog
+
+For Chinese-language project introductions and updates, visit our [Zhihu Blog](https://zhuanlan.zhihu.com/p/2058955167744136801).
+
+### Join the SciGenAI Slack
+
+SciGenAI is a generative AI for science community where researchers, students, engineers, and practitioners can discuss ideas, share work, and find collaborators across AI4Science. The workspace hosts channels for several AI4Science projects, including a dedicated channel for **Awesome Generative AI for Material Discovery**.
+
+In the materials channel, you can ask questions and get timely help, discuss papers and code, and coordinate issues, commits, and pull requests with project contributors.
+
+**Option 1 — Invitation link:** [Join the SciGenAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
+
+**Option 2 — QR code:** Scan the code below with your phone. The QR image is also clickable.
+
+<p align="center">
+  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
+    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="220">
+  </a>
+</p>
+
+### Join the WeChat Group
+
+We also have a WeChat group for Chinese-language discussions and weekly update syncs. Scan the QR code below with WeChat to join.
+
+<p align="center">
+  <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="300">
+</p>
 
 ## Citation
 
