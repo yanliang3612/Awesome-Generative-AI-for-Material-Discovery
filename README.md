@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog">
   </a>
   <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/slack-join-badge.svg" alt="Join MatDiscoverAI on Slack">
+    <img src="assets/slack-join-badge.svg" alt="Join SciGenAI on Slack">
   </a>
   <a href="#join-the-wechat-group">
     <img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&logoColor=white" alt="Join MatDiscoverAI on WeChat">
@@ -26,7 +26,7 @@
   <strong>A curated collection of algorithms, surveys, datasets, benchmarks, and toolkits for generative AI in material discovery.</strong><br>
   <em>If this saves you even one night of paper-hunting, give us a ⭐ — it's cheaper than a GPU hour, needs no DFT convergence, and finishes in one click.</em><br>
   <a href="#community">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=700&amp;size=18&amp;pause=1200&amp;color=0A66C2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Join+the+MatDiscoverAI+Community+on+Slack+%26+WeChat;Weekly+paper+drops+%E2%80%A2+benchmarks+%E2%80%A2+open-source+projects" alt="Join the MatDiscoverAI Community on Slack and WeChat">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=700&amp;size=18&amp;pause=1200&amp;color=0A66C2&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Join+the+SciGenAI+Community+on+Slack+%26+WeChat;Weekly+paper+drops+%E2%80%A2+benchmarks+%E2%80%A2+open-source+projects" alt="Join the SciGenAI Community on Slack and WeChat">
   </a>
 </p>
 
@@ -34,10 +34,10 @@
   <tr>
     <td align="center">
       <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-        <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the MatDiscoverAI Slack group" width="180">
+        <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="180">
       </a>
       <br>
-      <strong>Slack Group</strong>
+      <strong>SciGenAI Slack</strong>
     </td>
     <td align="center">
       <img src="assets/matdiscover_ai_wechat_eng.png" alt="QR code to join the MatDiscoverAI WeChat group" width="180">
@@ -105,17 +105,19 @@ This repository tracks progress in generative AI for materials, including langua
 
 For Chinese-language project introductions and updates, visit our [Zhihu Blog](https://zhuanlan.zhihu.com/p/2058955167744136801).
 
-### Join the MatDiscoverAI Slack
+### Join the SciGenAI Slack
 
-We created the MatDiscoverAI Slack community to connect researchers, students, engineers, and practitioners interested in this repository and generative AI for materials. It is a place to share new papers, datasets, benchmarks, and open-source projects; discuss methods, reproducibility, and open problems; ask questions; and find collaborators.
+SciGenAI is a generative AI for science community where researchers, students, engineers, and practitioners can discuss ideas, share work, and find collaborators across AI4Science. The workspace hosts channels for several AI4Science projects, including a dedicated channel for **Awesome Generative AI for Material Discovery**.
 
-**Option 1 — Invitation link:** [Join the MatDiscoverAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
+In the materials channel, you can ask questions and get timely help, discuss papers and code, and coordinate issues, commits, and pull requests with project contributors.
+
+**Option 1 — Invitation link:** [Join the SciGenAI Slack community](https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg)
 
 **Option 2 — QR code:** Scan the code below with your phone. The QR image is also clickable.
 
 <p align="center">
   <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the MatDiscoverAI Slack community" width="220">
+    <img src="assets/matdiscoverai-slack-qr.png" alt="QR code to join the SciGenAI Slack community" width="220">
   </a>
 </p>
 
