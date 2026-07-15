@@ -61,7 +61,7 @@
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-11
+Last updated: 2026-07-15
 
 ---
 
@@ -170,6 +170,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Generative Discovery of Magnetic Insulators under Competing Physical Constraints**](https://arxiv.org/abs/2604.21073) | arXiv 2026 | 2026.04.22 | - | - |
 | [**AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces**](https://arxiv.org/abs/2606.19152) | arXiv 2026 | 2026.06.17 | - | - |
 | [**Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery**](https://arxiv.org/abs/2607.07604) | arXiv 2026 | 2026.07.08 | - | - |
+| [**Autonomous in-silico inorganic materials discovery via multi-agent physics-aware scientific reasoning**](https://doi.org/10.1038/s41524-026-02205-8) | npj Computational Materials 2026 | 2026.07.08 | - | - |
 
 ### GAN Models
 
@@ -215,6 +216,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | ![Star](https://img.shields.io/github/stars/joshrosie/crystalite.svg?style=social&label=Star)<br>[**Crystalite: A Lightweight Transformer for Efficient Crystal Modeling**](https://arxiv.org/abs/2604.02270) | arXiv 2026 | 2026.04.02 | [GitHub](https://github.com/joshrosie/crystalite) | - |
 | [**Finetuning-Free Diffusion Model with Adaptive Constraint Guidance for Inorganic Crystal Structure Generation**](https://arxiv.org/abs/2604.13354) | arXiv 2026 | 2026.04.14 | - | - |
 | ![Star](https://img.shields.io/github/stars/hspark1212/chemeleon2.svg?style=social&label=Star)<br>[**Guiding generative models to uncover diverse and novel crystals via reinforcement learning**](https://www.nature.com/articles/s42256-026-01262-4) | Nature Machine Intelligence 2026 | 2026.07.06 | [GitHub](https://github.com/hspark1212/chemeleon2) | [Docs](https://hspark1212.github.io/chemeleon2/) |
+| [**Data-efficient continuous conditional denoising diffusion model for microstructure generation**](https://arxiv.org/abs/2607.10429) | arXiv 2026 | 2026.07.11 | - | - |
 
 ### Flow Matching Models
 
@@ -234,6 +236,8 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crystal Modeling**](https://openreview.net/forum?id=lKyD1ulXpY) | ICML 2026 | 2026.04.30 | - | - |
 | [**Generating Symmetric Materials using Latent Flow Matching**](https://arxiv.org/abs/2605.10115) | arXiv 2026 | 2026.05.11 | - | - |
 | ![Star](https://img.shields.io/github/stars/aspuru-guzik-group/clari.svg?style=social&label=Star)<br>[**Fast Organic Crystal Structure Prediction with Unit Cell Flow Matching**](https://arxiv.org/abs/2606.03199) | arXiv 2026 | 2026.06.02 | [GitHub](https://github.com/aspuru-guzik-group/clari) | [Models](https://huggingface.co/the-matter-lab/clari) |
+| [**Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings**](https://arxiv.org/abs/2607.08392) | arXiv 2026 | 2026.07.09 | - | - |
+| [**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**](https://arxiv.org/abs/2607.12380) | arXiv 2026 | 2026.07.14 | - | - |
 
 ### Bayesian & Generative Flow Networks
 
@@ -247,6 +251,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | ![Star](https://img.shields.io/github/stars/aimat-lab/symmbfn.svg?style=social&label=Star)<br>[**Symmetry-aware Bayesian flow networks for crystal generation**](https://www.nature.com/articles/s41524-026-02140-8) | npj Computational Materials 2026 | 2026.05.19 | [GitHub](https://github.com/aimat-lab/symmbfn) | - |
 | [**Periodic Bayesian Flow Networks with Additive Accuracy**](https://openreview.net/forum?id=N7hieduZYV) | ICML 2026 | 2026.04.30 | - | - |
 | [**A Distributional Framework for Generative Modeling of Molecular Crystals**](https://arxiv.org/abs/2607.05266) | arXiv 2026 | 2026.07.06 | - | - |
+| [**Sample Efficient Generative Optimization for Molecular Design**](https://arxiv.org/abs/2607.12488) | arXiv 2026 | 2026.07.14 | - | - |
 
 ### Symmetry-Aware & Wyckoff Generation
 
@@ -317,6 +322,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**DPA4: Pushing the Accuracy-Cost Frontier of Interatomic Potentials with EMFA SO(2) Convolution**](https://arxiv.org/abs/2606.02419) | arXiv 2026 | 2026.06.01 | - | - |
 | [**CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models**](https://arxiv.org/abs/2605.08960) | arXiv 2026 | 2026.05.09 | - | - |
 | ![Star](https://img.shields.io/github/stars/liun-online/Crys_JEPA.svg?style=social&label=Star)<br>[**Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement**](https://arxiv.org/abs/2605.14759) | arXiv 2026 | 2026.05.14 | [GitHub](https://github.com/liun-online/Crys_JEPA) | - |
+| [**CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery**](https://arxiv.org/abs/2607.11712) | arXiv 2026 | 2026.07.13 | - | - |
 
 ### Multi-Modal Training & Learning
 
@@ -354,6 +360,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Generative AI for crystal structures: a review**](https://www.nature.com/articles/s41524-025-01881-2) | npj Computational Materials 2025 | 2025.12.06 | - | - |
 | [**Generative Models for Crystalline Materials**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202523620) | Advanced Materials 2026 | 2026.02.26 | - | - |
 | [**Physics adapted generative AI for metal insulator transition materials under label scarcity**](https://arxiv.org/abs/2607.03578) | arXiv 2026 | 2026.07.03 | - | - |
+| [**Managing autonomous materials labs with multi-agent AI and its implications for the science of science**](https://doi.org/10.1038/s43246-026-01219-5) | Communications Materials 2026 | 2026.07.08 | - | - |
 
 ### Datasets
 
@@ -371,6 +378,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**The Open Materials 2024 (OMat24) inorganic materials dataset and models**](https://www.nature.com/articles/s43588-026-00996-w) | Nature Computational Science 2026 | 2026.06.02 | [OMat24](https://huggingface.co/datasets/facebook/OMAT24) · [Models](https://huggingface.co/facebook/OMAT24) | [FAIR-Chem](https://github.com/facebookresearch/fairchem) |
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatSciFig](https://huggingface.co/datasets/CMEG-IITR/MatSciFig) | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) |
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MaterialScope](https://huggingface.co/datasets/CMEG-IITR/MaterialScope) | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) |
+| [**The Precursor Genome: A Pairwise Reaction Dataset for Solid-State Synthesis**](https://arxiv.org/abs/2607.09903) | arXiv 2026 | 2026.07.10 | Precursor Genome | - |
 
 ### Benchmarks
 
@@ -395,6 +403,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**PhononBench: A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation**](https://arxiv.org/abs/2512.21227) | arXiv 2025 | 2025.12.24 | [GitHub](https://github.com/xqh19970407/PhononBench) · [Dataset](https://zenodo.org/records/18185662) | [API](http://phononbench.cn) |
 | ![Star](https://img.shields.io/github/stars/WMD-group/xtalmet.svg?style=social&label=Star)<br>[**Continuous SUN (stable, unique, and novel) metric for generative modeling of inorganic crystals**](https://doi.org/10.1088/2632-2153/ae7d85) | Machine Learning: Science and Technology 2026 | 2026.06.26 | [GitHub](https://github.com/WMD-group/xtalmet) | [Docs](https://wmd-group.github.io/xtalmet/) |
 | [**Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models**](https://arxiv.org/abs/2607.07647) | arXiv 2026 | 2026.07.08 | - | - |
+| [**AutoMatBench: An Automatic Optimization Toolkit for the Acceleration of Material Properties Prediction Benchmarking**](https://arxiv.org/abs/2607.11526) | arXiv 2026 | 2026.07.13 | AutoMatBench | - |
 
 ### Toolkits
 
