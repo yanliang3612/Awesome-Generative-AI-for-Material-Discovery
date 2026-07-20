@@ -61,7 +61,7 @@
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-15
+Last updated: 2026-07-20
 
 ---
 
@@ -127,6 +127,8 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**LapidaryEngine: Fully Conversational Crystal Generation**](https://arxiv.org/abs/2606.14215) | arXiv 2026 | 2026.06.12 | - | - |
 | [**Atomistic Language Models Understand and Generate Materials**](https://arxiv.org/abs/2606.21395) | arXiv 2026 | 2026.06.19 | - | - |
 | [**Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses**](https://arxiv.org/abs/2607.08003) | arXiv 2026 | 2026.07.09 | - | - |
+| [**How Well Can Frontier Large Language Models Generate Structures? High Quality Prediction of Molecular Geometries with Help from Fine-Tuning**](https://arxiv.org/abs/2607.13350) | arXiv 2026 | 2026.07.15 | - | - |
+| [**Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation via xTB-Reward Reinforcement Learning**](https://arxiv.org/abs/2607.15918) | arXiv 2026 | 2026.07.17 | - | - |
 
 ### Agentic Materials Discovery
 
@@ -145,6 +147,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery**](https://arxiv.org/abs/2607.07604) | arXiv 2026 | 2026.07.08 | - | - |
 | [**Autonomous in-silico inorganic materials discovery via multi-agent physics-aware scientific reasoning**](https://doi.org/10.1038/s41524-026-02205-8) | npj Computational Materials 2026 | 2026.07.08 | - | - |
 | [**Large language model agents accelerate inverse design of metal-organic frameworks for gas separation**](https://arxiv.org/abs/2607.10559) | arXiv 2026 | 2026.07.12 | - | - |
+| [**Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides**](https://arxiv.org/abs/2607.15535) | arXiv 2026 | 2026.07.17 | - | - |
 
 ### GAN Models
 
@@ -315,6 +318,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks**](https://arxiv.org/abs/2510.20976) | arXiv 2025 | 2025.10.23 | - | - |
 | [**Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crystal Modeling**](https://openreview.net/forum?id=lKyD1ulXpY) | ICML 2026 | 2026.04.30 | - | - |
 | [**Atomistic Language Models Understand and Generate Materials**](https://arxiv.org/abs/2606.21395) | arXiv 2026 | 2026.06.19 | - | - |
+| [**S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation**](https://arxiv.org/abs/2607.15686) | arXiv 2026 | 2026.07.17 | - | [Model](https://huggingface.co/ScienceOne-AI/S1-Omni) |
 
 ## Awesome Surveys, Datasets, Benchmarks & Toolkits
 
