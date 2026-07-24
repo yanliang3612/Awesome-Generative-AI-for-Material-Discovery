@@ -176,7 +176,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Generative Design of Crystal Structures by Point Cloud Representations and Diffusion Model**](https://doi.org/10.1016/j.isci.2024.111659) | iScience 2025 | 2025.01.17 | - | - |
 | [**Atomistic Generative Diffusion for Materials Modeling**](https://arxiv.org/abs/2501.08117) | arXiv 2025 | 2025.01.14 | - | - |
 | ![Star](https://img.shields.io/github/stars/trachote/crystalgrw.svg?style=social&label=Star)<br>[**CrystalGRW: Generative Modeling of Crystal Structures with Targeted Properties via Geodesic Random Walks**](https://arxiv.org/abs/2501.08998) | arXiv 2025 | 2025.01.15 | [GitHub](https://github.com/trachote/crystalgrw) | - |
-| [**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**](https://arxiv.org/abs/2505.07442) | arXiv 2025 | 2025.05.12 | - | - |
+| [**DiffCrysGen: a generative diffusion model for accelerated design of inorganic crystalline materials**](https://www.nature.com/articles/s41524-026-02147-1) | npj Computational Materials 2026 | 2026.05.27 | [GitHub](https://github.com/SouravMal/DiffCrysGen) | [Demo](https://github.com/SouravMal/DiffCrysGen/blob/main/notebooks/DiffCrysGen-demo.ipynb) |
 | ![Star](https://img.shields.io/github/stars/kdmsit/TGDMat.svg?style=social&label=Star)<br>[**Periodic Materials Generation using Text-Guided Joint Diffusion Model**](https://openreview.net/forum?id=AkBrb7yQ0G) | ICLR 2025 | 2025.02.28 | [GitHub](https://github.com/kdmsit/TGDMat) | - |
 | ![Star](https://img.shields.io/github/stars/facebookresearch/all-atom-diffusion-transformer.svg?style=social&label=Star)<br>[**All-atom Diffusion Transformers: Unified generative modelling of molecules and materials**](https://arxiv.org/abs/2503.03965) | ICML 2025 | 2025.03.05 | [GitHub](https://github.com/facebookresearch/all-atom-diffusion-transformer) | - |
 | ![Star](https://img.shields.io/github/stars/frcnt/kldm.svg?style=social&label=Star)<br>[**Kinetic Langevin Diffusion for Crystalline Materials Generation**](https://openreview.net/forum?id=7J1kwZY72h) | ICML 2025 | 2025.05.01 | [GitHub](https://github.com/frcnt/kldm) | - |
@@ -266,6 +266,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | ![Star](https://img.shields.io/github/stars/MaterSim/LEGO-xtal.svg?style=social&label=Star)<br>[**AI-assisted rapid crystal structure generation towards a target local environment**](https://www.nature.com/articles/s41524-025-01931-9) | npj Computational Materials 2026 | 2026.01.06 | [GitHub](https://github.com/MaterSim/LEGO-xtal) | [Demo](http://lego-crystal.onrender.com) |
 | [**Crystal Generation using the Fully Differentiable Pipeline and Latent Space Optimization**](https://arxiv.org/abs/2601.04606) | arXiv 2026 | 2026.01.08 | - | - |
 | ![Star](https://img.shields.io/github/stars/liun-online/Compositional_Crystal_Generation.svg?style=social&label=Star)<br>[**Composable Crystals: Controllable Materials Discovery via Concept Learning**](https://arxiv.org/abs/2605.14769) | arXiv 2026 | 2026.05.14 | [GitHub](https://github.com/liun-online/Compositional_Crystal_Generation) | - |
+| [**MagGen: A Graph-Aided Deep Generative Model for Inverse Design of Permanent Magnets**](https://pubs.acs.org/doi/10.1021/acs.jpclett.4c00068) | The Journal of Physical Chemistry Letters 2024 | 2024.03.14 | [GitHub](https://github.com/SouravMal/MagGen) | - |
 
 ### MOF & Porous Materials
 
@@ -302,6 +303,8 @@ This section is limited to work whose primary contribution is a model, algorithm
 | ![Star](https://img.shields.io/github/stars/liun-online/Crys_JEPA.svg?style=social&label=Star)<br>[**Crys-JEPA: Accelerating Crystal Discovery via Embedding Screening and Generative Refinement**](https://arxiv.org/abs/2605.14759) | arXiv 2026 | 2026.05.14 | [GitHub](https://github.com/liun-online/Crys_JEPA) | - |
 | [**CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery**](https://arxiv.org/abs/2607.11712) | arXiv 2026 | 2026.07.13 | - | - |
 | [**Intrinsically Design-Rule-Compliant Nanophotonic Inverse Design via Learned Generative Manifolds**](https://doi.org/10.1002/lpor.71486) | Laser & Photonics Reviews 2026 | 2026.07.08 | - | - |
+| [**mCGCNN: A Dual-Stream Crystal Graph Convolutional Neural Network for the Efficient Prediction of Magnetic Properties of Crystalline Materials**](https://arxiv.org/abs/2606.28458) | arXiv 2026 | 2026.06.26 | [GitHub](https://github.com/SouravMal/mCGCNN) | - |
+
 
 ### Multi-Modal Training & Learning
 
