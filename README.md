@@ -1,21 +1,11 @@
 <h1 align="center">Awesome Generative AI for Material Discovery</h1>
 
 <p align="center">
-  <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">
-    <img src="https://awesome.re/badge.svg" alt="Awesome">
-  </a>
-  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801">
-    <img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog">
-  </a>
-  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg">
-    <img src="assets/slack-join-badge.svg" alt="Join SciGenAI on Slack">
-  </a>
-  <a href="#join-the-wechat-group">
-    <img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&logoColor=white" alt="Join MatDiscoverAI on WeChat">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
-  </a>
+  <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://zhuanlan.zhihu.com/p/2058955167744136801"><img src="https://img.shields.io/badge/Zhihu-Blog-0084FF?logo=zhihu&logoColor=white" alt="Zhihu Blog"></a>
+  <a href="https://join.slack.com/t/matdiscoverai/shared_invite/zt-32kktcuk0-XaaJT2P9qZTfNdaCzJUGAg"><img src="assets/slack-join-badge.svg" alt="Join SciGenAI on Slack"></a>
+  <a href="#join-the-wechat-group"><img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&logoColor=white" alt="Join MatDiscoverAI on WeChat"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
 </p>
 
 <p align="center">
