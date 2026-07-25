@@ -1,4 +1,4 @@
-# Awesome Generative AI for Material Discovery
+<h1 align="center">Awesome Generative AI for Material Discovery</h1>
 
 <p align="center">
   <a href="https://github.com/yanliang3612/Awesome-Generative-AI-for-Material-Discovery">
