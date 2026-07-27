@@ -51,7 +51,7 @@
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-24
+Last updated: 2026-07-28
 
 ---
 
@@ -119,6 +119,8 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses**](https://arxiv.org/abs/2607.08003) | arXiv 2026 | 2026.07.09 | - | - |
 | [**How Well Can Frontier Large Language Models Generate Structures? High Quality Prediction of Molecular Geometries with Help from Fine-Tuning**](https://arxiv.org/abs/2607.13350) | arXiv 2026 | 2026.07.15 | - | - |
 | [**Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation via xTB-Reward Reinforcement Learning**](https://arxiv.org/abs/2607.15918) | arXiv 2026 | 2026.07.17 | - | - |
+| [**OLEDLM: A Unified Language Model for OLED Molecular Design**](https://arxiv.org/abs/2607.20194) | arXiv 2026 | 2026.07.22 | - | - |
+| [**Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model**](https://arxiv.org/abs/2607.20058) | arXiv 2026 | 2026.07.22 | - | - |
 
 ### Agentic Materials Discovery
 
@@ -138,6 +140,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Autonomous in-silico inorganic materials discovery via multi-agent physics-aware scientific reasoning**](https://doi.org/10.1038/s41524-026-02205-8) | npj Computational Materials 2026 | 2026.07.08 | - | - |
 | [**Large language model agents accelerate inverse design of metal-organic frameworks for gas separation**](https://arxiv.org/abs/2607.10559) | arXiv 2026 | 2026.07.12 | - | - |
 | [**Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides**](https://arxiv.org/abs/2607.15535) | arXiv 2026 | 2026.07.17 | - | - |
+| [**MOF-Sleuth: Tool-Grounded Reward Alignment for Explainable Fine-Grained MOF CIF Auditing**](https://arxiv.org/abs/2607.19935) | arXiv 2026 | 2026.07.22 | - | - |
 
 ### GAN Models
 
@@ -185,6 +188,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Finetuning-Free Diffusion Model with Adaptive Constraint Guidance for Inorganic Crystal Structure Generation**](https://arxiv.org/abs/2604.13354) | arXiv 2026 | 2026.04.14 | - | - |
 | ![Star](https://img.shields.io/github/stars/hspark1212/chemeleon2.svg?style=social&label=Star)<br>[**Guiding generative models to uncover diverse and novel crystals via reinforcement learning**](https://www.nature.com/articles/s42256-026-01262-4) | Nature Machine Intelligence 2026 | 2026.07.06 | [GitHub](https://github.com/hspark1212/chemeleon2) | [Docs](https://hspark1212.github.io/chemeleon2/) |
 | [**Data-efficient continuous conditional denoising diffusion model for microstructure generation**](https://arxiv.org/abs/2607.10429) | arXiv 2026 | 2026.07.11 | - | - |
+| [**Property-Guided Diffusion for Inverse Design of Crystalline Materials**](https://arxiv.org/abs/2607.21849) | arXiv 2026 | 2026.07.23 | - | - |
 
 ### Flow Matching Models
 
@@ -312,6 +316,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crystal Modeling**](https://openreview.net/forum?id=lKyD1ulXpY) | ICML 2026 | 2026.04.30 | - | - |
 | [**Atomistic Language Models Understand and Generate Materials**](https://arxiv.org/abs/2606.21395) | arXiv 2026 | 2026.06.19 | - | - |
 | [**S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation**](https://arxiv.org/abs/2607.15686) | arXiv 2026 | 2026.07.17 | - | [Model](https://huggingface.co/ScienceOne-AI/S1-Omni) |
+| [**SAGE-Net: Semantics-Augmented Geometric Encoder for Material Property Prediction**](https://arxiv.org/abs/2607.22271) | arXiv 2026 | 2026.07.24 | - | - |
 
 ## Awesome Surveys, Datasets, Benchmarks & Toolkits
 
@@ -336,6 +341,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Managing autonomous materials labs with multi-agent AI and its implications for the science of science**](https://doi.org/10.1038/s43246-026-01219-5) | Communications Materials 2026 | 2026.07.08 | - | - |
 | [**From screening to generative design in nucleic acid delivery**](https://doi.org/10.1038/s41578-026-00944-0) | Nature Reviews Materials 2026 | 2026.07.08 | - | - |
 | [**Closed-Loop Machine Learning in Materials Discovery: From Predict-Validate-Update Paradigms to Autonomous Ecosystems**](https://doi.org/10.1007/s11831-026-10733-1) | Archives of Computational Methods in Engineering 2026 | 2026.07.13 | - | - |
+| [**Generative and multimodal AI for materials prediction and design: Progress, challenges, and perspectives**](https://arxiv.org/abs/2607.21660) | arXiv 2026 | 2026.07.22 | - | - |
 
 ### Datasets
 
