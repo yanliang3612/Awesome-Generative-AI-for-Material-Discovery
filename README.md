@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/generative-ai-materials-logo-balanced.gif" alt="Animated Generative AI for Material Discovery logo combining crystal generation, neural networks, and scientific discovery" width="240">
+  <img src="assets/generative-ai-materials-story-labeled.gif" alt="Animated Generative AI for Material Discovery logo showing labeled scenes for algorithms, crystal generation, porous materials, property validation, and closed-loop discovery" width="240">
 </p>
 
 <p align="center">
