@@ -51,7 +51,7 @@
   <a href="#citation">Citation</a>
 </p>
 
-Last updated: 2026-07-28
+Last updated: 2026-08-03
 
 ---
 
@@ -121,6 +121,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation via xTB-Reward Reinforcement Learning**](https://arxiv.org/abs/2607.15918) | arXiv 2026 | 2026.07.17 | - | - |
 | [**OLEDLM: A Unified Language Model for OLED Molecular Design**](https://arxiv.org/abs/2607.20194) | arXiv 2026 | 2026.07.22 | - | - |
 | [**Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model**](https://arxiv.org/abs/2607.20058) | arXiv 2026 | 2026.07.22 | - | - |
+| [**MolGVR: A Chemistry-Grounded Framework for Text-to-Molecule Generation**](https://arxiv.org/abs/2607.29479) | arXiv 2026 | 2026.07.31 | - | - |
 
 ### Agentic Materials Discovery
 
@@ -141,6 +142,8 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**Large language model agents accelerate inverse design of metal-organic frameworks for gas separation**](https://arxiv.org/abs/2607.10559) | arXiv 2026 | 2026.07.12 | - | - |
 | [**Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides**](https://arxiv.org/abs/2607.15535) | arXiv 2026 | 2026.07.17 | - | - |
 | [**MOF-Sleuth: Tool-Grounded Reward Alignment for Explainable Fine-Grained MOF CIF Auditing**](https://arxiv.org/abs/2607.19935) | arXiv 2026 | 2026.07.22 | - | - |
+| ![Star](https://img.shields.io/github/stars/wkdghdus23/astra.svg?style=social&label=Star)<br>[**Discovery of electrolyte additives using generative artificial intelligence and dual loop active learning**](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006648/v1) | ChemRxiv 2026 | 2026.07.28 | [GitHub](https://github.com/wkdghdus23/astra) | [Models](https://huggingface.co/wkdghdus23/astra-generator-final) |
+| [**Chelatron: Charting Chemical Space with Agentic AI for Metal-Ligand Discovery**](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006844/v1) | ChemRxiv 2026 | 2026.07.31 | - | - |
 
 ### GAN Models
 
@@ -210,6 +213,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | ![Star](https://img.shields.io/github/stars/aspuru-guzik-group/clari.svg?style=social&label=Star)<br>[**Fast Organic Crystal Structure Prediction with Unit Cell Flow Matching**](https://arxiv.org/abs/2606.03199) | arXiv 2026 | 2026.06.02 | [GitHub](https://github.com/aspuru-guzik-group/clari) | [Models](https://huggingface.co/the-matter-lab/clari) |
 | [**Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings**](https://arxiv.org/abs/2607.08392) | arXiv 2026 | 2026.07.09 | - | - |
 | [**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**](https://arxiv.org/abs/2607.12380) | arXiv 2026 | 2026.07.14 | - | - |
+| [**APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems**](https://arxiv.org/abs/2607.28553) | arXiv 2026 | 2026.07.30 | - | - |
 
 ### Bayesian & Generative Flow Networks
 
@@ -275,6 +279,7 @@ This section is limited to work whose primary contribution is a model, algorithm
 | [**PRO-MOF: Policy Optimization with Universal Atomistic Models for Controllable MOF Generation**](https://openreview.net/forum?id=BIzrFlp0hv) | ICLR 2026 | 2026.01.26 | - | - |
 | ![Star](https://img.shields.io/github/stars/nayoung10/AtomMOF.svg?style=social&label=Star)<br>[**AtomMOF: All-Atom Flow Matching for MOF-Adsorbate Structure Prediction**](https://arxiv.org/abs/2602.07351) | arXiv 2026 | 2026.02.07 | [GitHub](https://github.com/nayoung10/AtomMOF) | - |
 | [**L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks**](https://arxiv.org/abs/2510.20976) | arXiv 2025 | 2025.10.23 | - | - |
+| ![Star](https://img.shields.io/github/stars/SatyaK-0/MatCreatioNN.svg?style=social&label=Star)<br>[**MatCreatioNN: Machine learning-guided computational discovery of photocatalysts for environmental applications**](https://arxiv.org/abs/2607.27295) | Catalysis Today 2026 | 2026.07.29 | [GitHub](https://github.com/SatyaK-0/MatCreatioNN) · [Data](https://doi.org/10.5281/zenodo.17581148) | - |
 
 ### Representation & Pretraining
 
@@ -385,6 +390,7 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | ![Star](https://img.shields.io/github/stars/WMD-group/xtalmet.svg?style=social&label=Star)<br>[**Continuous SUN (stable, unique, and novel) metric for generative modeling of inorganic crystals**](https://doi.org/10.1088/2632-2153/ae7d85) | Machine Learning: Science and Technology 2026 | 2026.06.26 | [GitHub](https://github.com/WMD-group/xtalmet) | [Docs](https://wmd-group.github.io/xtalmet/) |
 | [**Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models**](https://arxiv.org/abs/2607.07647) | arXiv 2026 | 2026.07.08 | - | - |
 | [**AutoMatBench: An Automatic Optimization Toolkit for the Acceleration of Material Properties Prediction Benchmarking**](https://arxiv.org/abs/2607.11526) | arXiv 2026 | 2026.07.13 | AutoMatBench | - |
+| [**Representations from Pretrained Machine-Learning Interatomic Potentials as Coarse Coordinates for Material Generation and Evaluation**](https://arxiv.org/abs/2607.28776) | arXiv 2026 | 2026.07.30 | CFTD | - |
 
 ### Toolkits
 
@@ -400,6 +406,8 @@ This section contains non-algorithm resources. `Surveys` covers reviews, perspec
 | [**Unlocking the Visual Record of Materials Science: A Large-Scale Multimodal Dataset from Scientific Literature**](https://arxiv.org/abs/2606.29667) | arXiv 2026 | 2026.06.29 | [MatMMExtract](https://github.com/CMEG-IITR/matmmextract) · [PyPI](https://pypi.org/project/matmmextract/) | - |
 | [**PhononScore: a phonon-aware scoring function for dynamical stability**](https://arxiv.org/abs/2607.08518) | arXiv 2026 | 2026.07.09 | [GitHub](https://github.com/xqh19970407/PhononScore) · [Dataset](https://zenodo.org/records/21157982) | [Online evaluator](http://phononbench.cn/phononscore/) |
 | [**Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis**](https://arxiv.org/abs/2607.08890) | arXiv 2026 | 2026.07.09 | [AGAPI-XRD API](https://atomgpt.org/) | - |
+| [**Unifying Digital Discovery of Electronic Materials with EMOS**](https://www.researchsquare.com/article/rs-10451683/v1) | Research Square 2026 | 2026.07.28 | EMOS | - |
+| [**Universal Structure Generator: A Simple Plugin Agent For Computational Chemistry and Agentic Frameworks**](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006869/v1) | ChemRxiv 2026 | 2026.07.31 | Universal Structure Generator (USG) | - |
 
 ## TODO
 
